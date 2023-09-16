@@ -1,0 +1,123 @@
+.lpc-popup-decor {
+	width: 100%; 
+	display: flex;
+	justify-content: center;
+}
+
+.content_contructor .lpc-popup-form-1 {
+	padding: 40px 0 ;
+}
+
+.lpc-popup-form-1__top {
+	padding: 72px 64px;
+	position: relative;
+	background: var(--content-background-lpc);
+	border-radius: 10px;
+}
+[data-media-source="media-md"] .lpc-popup-form-1__top {
+	padding: 64px 56px;
+}
+[data-media-source="media-sm"] .lpc-popup-form-1__top {
+    padding: 48px 32px;
+}
+[data-media-source="media-xs"] .lpc-popup-form-1__top {
+    padding: 32px 20px;
+}
+
+.lpc-popup-form-1__content {
+  max-width: 600px;
+}
+
+.lpc-popup-form-1__title {
+    font-size: 36px;
+    
+}
+
+.lpc-popup-form-1__title + .lpc-popup-form-1__text,
+.lpc-popup-form-1__title + lt-highlighter + .lpc-popup-form-1__text {
+    margin-top: 24px;
+}
+
+
+@media all and (max-width: 1279px) {
+  .lpc-popup-form-1__title {
+    font-size: 32px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .lpc-popup-form-1__title {
+    font-size: 28px;
+  }
+}
+
+
+  
+@media all and (max-width: 767px) {
+  .lpc-popup-form-1__title {
+    font-size: 26px;
+  }
+}
+
+[data-media-source="media-xs"] .lpc-popup-form-1__title + .lpc-popup-form-1__text,
+ [data-media-source="media-xs"] .lpc-popup-form-1__title + lt-highlighter + .lpc-popup-form-1__text {
+    margin-top: 16px;
+  }
+
+@media all and (max-width: 479px) {
+  .lpc-popup-form-1__title {
+    font-size: 22px;
+  }
+} 
+
+.lpc-popup-form-1 .lpc-popup-form-1__text {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.lpc-popup-form-1 .lpc-popup-form-1__title-wrap {
+    margin-bottom: 28px;
+}
+
+[data-media-source="media-sm"] .lpc-popup-form-1 .lpc-popup-form-1__title-wrap,
+[data-media-source="media-xs"] .lpc-popup-form-1 .lpc-popup-form-1__title-wrap {
+	margin-bottom: 20px;
+}
+
+
+@media all and (max-width: 767px) {
+  .lpc-popup-form-1__title-wrap {
+      margin-bottom: 24px;
+    }
+}
+
+.lpc-popup-form-1 .lp-form-tpl__item {
+    padding-bottom: 24px;
+}
+
+@media all and (max-width: 767px) {
+  .lpc-popup-form-1 .lp-form-tpl__item {
+      padding-bottom: 16px;
+    }
+}
+
+.lpc-popup-form-1 .lp-form-tpl__button-wrapper {
+    padding-top: 0;
+}
+
+@media all and (max-width: 479px) {
+  .lpc-popup-form-1  .lp-form-tpl__button {
+    width: 100%;
+  }
+}
+
+
+.lpc-popup-form-1  .lp-form-tpl__field-checkbox--text {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.lpc-popup-form-1 .lp-form-tpl__item {
+	width: 100%;
+}
