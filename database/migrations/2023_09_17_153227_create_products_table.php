@@ -20,9 +20,6 @@ return new class extends Migration
             $table->float('price_2')->comment('до 30к');
             $table->float('price_3')->comment('30-50к');
             $table->float('price_4')->comment('от 50к');
-            $table->float('price');
-            $table->float('price');
-            $table->float('price');
             $table->float('buy_price')->default(0);
             $table->text('description')->nullable();
             $table->longText('long_description')->nullable();
