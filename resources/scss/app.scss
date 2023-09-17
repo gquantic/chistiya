@@ -1,0 +1,35 @@
+.categories-display {
+    display: flex;
+    justify-content: start;
+
+    &__item {
+        padding: 10px 20px;
+        background: rgba(0,0,0,.05);
+        margin-right: 15px;
+        cursor: pointer;
+        transition: .1s ease;
+
+        &:hover {
+            background: rgba(0,0,0,.1);
+        }
+
+        &:active {
+            transform: scale(.96);
+        }
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+
+    &:hover {
+        color: #000;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
