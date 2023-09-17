@@ -28,6 +28,7 @@ class CatalogueUpdate extends Command
      */
     public function handle()
     {
-        Excel::import(new ProductsImport, Storage::disk('public')->get('products.xlsx'));
+//        Excel::import(new ProductsImport, Storage::path('app/public/products.xlsx'));
+        Excel::import(new ProductsImport, 'products.xlsx', 'public', \Maatwebsite\Excel\Excel::XLSX);
     }
 }
