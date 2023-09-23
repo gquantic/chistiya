@@ -64,10 +64,12 @@
     @yield('styles')
 
     @vite('resources/scss/app.scss')
+
+    @vite('resources/js/app.js')
 </head>
 <body>
 
-<div class="mosaic-wrap">
+<div class="mosaic-wrap" id="app">
     <div class="root root--u-incpuhgqw" id="incpuhgqw_0">
         <div class="section section--u-ip3eh4sps" id="ip3eh4sps_0" data-do-section='{"screen":{"scroll":false,"smooth":true}}'>
             @include('blocks.header')

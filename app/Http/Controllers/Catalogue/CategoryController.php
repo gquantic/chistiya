@@ -15,7 +15,7 @@ class CategoryController extends Controller
     public function index()
     {
         return view('catalogue.categories.index', [
-            'categories' => Category::query()->get(),
+            'categories' => Category::all(),
             'products' => Product::all(),
         ]);
     }
@@ -41,7 +41,11 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+        return view('catalogue.categories.show', [
+            'categories' => Category::query()->get(),
+            'products' => Product::all(),
+            'category' => $category,
+        ]);
     }
 
     /**
