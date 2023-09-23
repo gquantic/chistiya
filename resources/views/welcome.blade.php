@@ -9,16 +9,16 @@
         <div class="section section--u-inxu8791y" id="inxu8791y_0" data-do-section='{"screen":{"scroll":false,"smooth":true}}'>
             <div class="div div--u-isgdfq56b" id="isgdfq56b_0">
                 <a
-                    href="rieltorskie-uslugi.html"
+                    href="/"
                     class="link-universal link-universal--u-iobuim118"
                     id="iobuim118_0"
                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                 >
                     <div class="imageFit imageFit--u-ib3u1v0gh" id="ib3u1v0gh_0" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
                         <img
-                            data-origin-src="/thumb/2/vLSEkarpsS7IKYrS1ko3yg/r/d/logo5.png"
+                            data-origin-src="{{ asset('assets/img/chistiyya.jpg') }}"
                             data-size="75x75"
-                            src="/thumb/2/o-64Vqb9n2fSpVr5CVEigA/1900r1900/d/logo5.png"
+                            src="{{ asset('assets/img/chistiyya.jpg') }}"
                             alt="logo5"
                             title=""
                             class="imageFit__img imageFit__img--u-ig03fb2ff"
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="rich-text rich-text--u-icj5zh8aq" id="icj5zh8aq_0">
-                        <div class="text-block-wrap-div"><span style="color:#24b501;">ВАШЕ</span> НАЗВАНИЕ</div>
+                        <div class="text-block-wrap-div">{{ config('app.name') }}</div>
                     </div>
                     <div class="text text--u-i7z2rnye1" id="i7z2rnye1_0">
                         <span class="text-block-wrap-div">Хозяйственные товары, бытовая химия</span>
@@ -41,7 +41,7 @@
                         <div class="list list--u-i6390seub" id="i6390seub_0">
                             <div class="list__item list__item--u-i3car0bed" id="i3car0bed_0">
                                 <a
-                                    href="rieltorskie-uslugi.html"
+                                    href="/"
                                     class="link-universal link-universal--u-ihyeewwvz"
                                     id="ihyeewwvz_0"
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -83,68 +83,7 @@
             </div>
         </div>
         <div class="div div--u-irim3600m" id="irim3600m_0">
-            <div class="div div--u-i5wdbp18h" id="i5wdbp18h_0">
-                <div
-                    class="mosaic-form mosaic-form--u-iz6gy7dw9"
-                    id="iz6gy7dw9_0"
-                    data-do-form='{"screen":{"mode":"main","anketa_id":"4416906","initial_state":"{\"anketa_id\":\"4416906\",\"name\":\"\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0437\u0430\u044f\u0432\u043a\u0443 \u0438 \u043c\u044b <span style=\\\"font-weight:bolder\\\">\u0441\u0432\u044f\u0436\u0435\u043c\u0441\u044f \u0441 \u0412\u0430\u043c\u0438<\/span>\",\"submit_name\":\"\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c\",\"success_note\":\"\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0424\u043e\u0440\u043c\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430\",\"tag_id\":\"iz6gy7dw9\",\"symbol_id\":0,\"change\":false,\"dictionaries\":{\"imo7jfo7k\":{\"dictionary_id\":18235506,\"name\":\"\u0422\u0435\u043b\u0435\u0444\u043e\u043d:\",\"type_id\":15,\"required\":true,\"alias\":\"phone\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__phone__\",\"change\":false},\"i4hp883yj\":{\"dictionary_id\":18235706,\"name\":\"\u0413\u0430\u043b\u043e\u0447\u043a\u0430\",\"type_id\":7,\"required\":false,\"alias\":\"field_63504904\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"\",\"change\":false}}}","nativeStyle":true}}'
-                >
-                    <form id="i5jeahyzr_0" action="rieltorskie-uslugi.html#" class="mosaic-form__form mosaic-form__form--u-i5jeahyzr" data-s3-anketa-id="4416906">
-                        <div id="isqcn3hkq_0" class="div div--u-isqcn3hkq">
-                            <div id="iqw374j4v_0" class="mosaic-form__title mosaic-form__title--u-iqw374j4v">
-                                <span class="text-block-wrap-div">Оставьте заявку и мы <span style="font-weight:bolder">свяжемся с Вами</span></span>
-                            </div>
-                        </div>
-                        <div
-                            id="imo7jfo7k_0"
-                            data-type-field="phone"
-                            data-field-position="0"
-                            class="mosaic-form__field mosaic-form__field--u-imo7jfo7k"
-                            data-do-input_phone='{"screen":{"type_id":15,"required":true,"dictionary_id":18235506,"validator":"__phone__","alias":"phone"}}'
-                        >
-                            <!--noindex-->
-                            <div id="i57kng94u_0" class="mosaic-form__error mosaic-form__error--u-i57kng94u is-removed" data-nosnippet=""><span class="text-block-wrap-div">это поле обязательно для заполнения</span></div>
-                            <!--/noindex-->
-                            <div id="iqe1wbtz3_0" class="mosaic-form__header mosaic-form__header--u-iqe1wbtz3">
-                                <span id="igzhr3tw0_0" class="mosaic-form__name mosaic-form__name--u-igzhr3tw0"><span class="text-block-wrap-div">Телефон:</span></span>
-                                <span id="i9u9nwro4_0" class="mosaic-form__required mosaic-form__required--u-i9u9nwro4"><span class="text-block-wrap-div">* </span></span>
-                            </div>
-                            <input id="iabwke48f_0" type="tel" placeholder="Телефон *" class="mosaic-form__text mosaic-form__text--u-iabwke48f" />
-                            <div id="iesxw4xuq_0" class="mosaic-form__note mosaic-form__note--u-iesxw4xuq is-removed"></div>
-                        </div>
-                        <div
-                            id="i4hp883yj_0"
-                            data-type-field="checkbox"
-                            data-field-position="1"
-                            class="mosaic-form__field mosaic-form__field--u-i4hp883yj"
-                            data-do-checkbox='{"screen":{"type_id":7,"required":false,"dictionary_id":18235706,"alias":"field_63504904"}}'
-                        >
-                            <!--noindex-->
-                            <div id="if2d3geom_0" class="mosaic-form__error mosaic-form__error--u-if2d3geom is-removed" data-nosnippet=""><span class="text-block-wrap-div">это поле обязательно для заполнения</span></div>
-                            <!--/noindex-->
-                            <div id="i2rrf2ltk_0" class="mosaic-form__header mosaic-form__header--u-i2rrf2ltk">
-                                <span id="io0v5keeq_0" class="mosaic-form__name mosaic-form__name--u-io0v5keeq"><span class="text-block-wrap-div">Галочка</span></span>
-                                <span id="ievu31m96_0" class="mosaic-form__required mosaic-form__required--u-ievu31m96 is-removed"><span class="text-block-wrap-div">* </span></span>
-                            </div>
-                            <label id="i95197bzj_0" class="mosaic-form__label mosaic-form__label--u-i95197bzj">
-                                <input id="irh2lyegi_0" type="checkbox" value="Я согласен(а) с обработкой персональных данных" class="mosaic-form__checkbox mosaic-form__checkbox--u-irh2lyegi" />
-                                <span id="ifw59ozjc_0" class="mosaic-form__checkbox-icon mosaic-form__checkbox-icon--u-ifw59ozjc"></span>
-                                <span id="im8onm9nx_0" class="mosaic-form__value mosaic-form__value--u-im8onm9nx"><span class="text-block-wrap-div">Я согласен(а) с обработкой персональных данных</span></span>
-                            </label>
-                            <div id="i8mi7czuy_0" class="mosaic-form__note mosaic-form__note--u-i8mi7czuy is-removed"></div>
-                        </div>
-                        <button id="il4lb7lbm_0" class="mosaic-form__button mosaic-form__button--u-il4lb7lbm">
-                            <span id="ioshtnrbt_0" class="button__text button__text--u-ioshtnrbt"><span class="text-block-wrap-div">ЗАПИСАТЬ</span></span>
-                        </button>
-                        <re-captcha data-captcha="recaptcha" data-name="captcha" data-sitekey="6LcYvrMcAAAAAKyGWWuW4bP1De41Cn7t3mIjHyNN" data-lang="ru" data-rsize="invisible" data-type="image" data-theme="light"></re-captcha>
-                    </form>
-                    <!--noindex-->
-                    <div id="i4xg9ktpl_0" class="mosaic-form__success mosaic-form__success--u-i4xg9ktpl is-removed" data-nosnippet="">
-                        <div id="igoxskmdz_0" class="mosaic-form__success__text mosaic-form__success__text--u-igoxskmdz"><span class="text-block-wrap-div">Спасибо! Форма отправлена</span></div>
-                    </div>
-                    <!--/noindex-->
-                </div>
-            </div>
+            <callback-form></callback-form>
         </div>
     </div>
 @endsection
@@ -160,7 +99,7 @@
                     <span class="text-block-wrap-div">Широкий выбор товаров по низким ценам</span>
                 </div>
                 <a
-                    href="testovaya-usluga-1.html"
+                    href="{{ route('categories.index') }}"
                     class="link-universal link-universal--u-ipfjp5g61"
                     id="ipfjp5g61_0"
                     data-do-link_universal='{"screen":{"type":"link","popup":"none","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -309,16 +248,17 @@
                                         <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
                                     </div>
                                     <div class="div div--u-ibxodt7qf" id="ibxodt7qf_0">
-                                        <div
+                                        <a
                                             role="button"
                                             class="link-universal link-universal--u-icen6h73h"
                                             id="icen6h73h_0"
                                             data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                            href="{{ route('categories.index') }}"
                                         >
                                             <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
                                                 <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -353,16 +293,17 @@
                                         <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
                                     </div>
                                     <div class="div div--u-ibxodt7qf" id="ibxodt7qf_1">
-                                        <div
+                                        <a
                                             role="button"
                                             class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_1"
+                                            id="icen6h73h_0"
                                             data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                            href="{{ route('categories.index') }}"
                                         >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_1">
+                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
                                                 <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -397,16 +338,17 @@
                                         <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
                                     </div>
                                     <div class="div div--u-ibxodt7qf" id="ibxodt7qf_2">
-                                        <div
+                                        <a
                                             role="button"
                                             class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_2"
+                                            id="icen6h73h_0"
                                             data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                            href="{{ route('categories.index') }}"
                                         >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_2">
+                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
                                                 <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -441,16 +383,17 @@
                                         <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
                                     </div>
                                     <div class="div div--u-ibxodt7qf" id="ibxodt7qf_3">
-                                        <div
+                                        <a
                                             role="button"
                                             class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_3"
+                                            id="icen6h73h_0"
                                             data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                            href="{{ route('categories.index') }}"
                                         >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_3">
+                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
                                                 <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -542,16 +485,15 @@
                 <div class="div div--u-ile73mpwh" id="ile73mpwh_0"></div>
                 <div class="text text--u-ip8oh4fjr" id="ip8oh4fjr_0">
 						<span class="text-block-wrap-div">
-							Примечание. Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не скопированной с других интернет-ресурсов, о чем указано в рекомендациях Яндекса: «Мы стараемся не индексировать
-							или не ранжировать высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального контента или сервиса».<br />
-							<br />
-							Вот уже … &lt;укажите стаж работы компании&gt; лет наша компания занимает уверенные позиции на рынке и предоставляет только самые современные решения, позволяя нашим клиентам делать заказы через сайт.
-						</span>
+                            Добро пожаловать в мир ЧистыйЯ –магазина бытовой химии, где эстетика и необычность встречаются со сверкающей чистотой.
+                            <br>
+                            Мы создаем пространство, где каждая ваша повседневная тревога о стирке, уборке или уходе за домом решается с легкостью и стилем.
+                        </span>
                 </div>
                 <div class="div div--u-i5criza0n" id="i5criza0n_0">
                     <a
-                        href="testovaya-usluga-1.html"
-                        class="link-universal link-universal--u-irpuxq1i1"
+                        href="{{ route('about') }}"
+                        class="link-universal link-universal--u-irpuxq1i1 text-decoration-none"
                         id="irpuxq1i1_0"
                         data-do-link_universal='{"screen":{"type":"link","popup":"none","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                     >
@@ -559,16 +501,19 @@
                             <span class="text-block-wrap-div">ПОДРОБНЕЕ</span>
                         </div>
                     </a>
-                    <div
-                        role="button"
-                        class="link-universal link-universal--u-ijxltxwy4"
-                        id="ijxltxwy4_0"
-                        data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                    >
-                        <div class="text text--u-id5fhrj5k" id="id5fhrj5k_0">
-                            <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
-                        </div>
-                    </div>
+                    <a href="{{ route('categories.index') }}" class="text-decoration-none">
+                        <a
+                            role="button"
+                            class="link-universal link-universal--u-ijxltxwy4"
+                            id="ijxltxwy4_0"
+                            data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                            href="{{ route('categories.index') }}"
+                        >
+                            <div class="text text--u-id5fhrj5k" id="id5fhrj5k_0">
+                                <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
+                            </div>
+                        </a>
+                    </a>
                 </div>
                 <div class="div div--u-ixnjuorwb" id="ixnjuorwb_0">
                     <div
@@ -662,16 +607,17 @@
                     <div class="text text--u-i3mc5maa5" id="i3mc5maa5_0">
                         <span class="text-block-wrap-div">Мы всегда рады новым клиентам</span>
                     </div>
-                    <div
+                    <a
                         role="button"
-                        class="link-universal link-universal--u-idzo9l4fc"
+                        class="link-universal link-universal--u-idzo9l4fc text-decoration-none"
                         id="idzo9l4fc_0"
                         data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                        href="{{ route('categories.index') }}"
                     >
                         <div class="text text--u-ijffh0yzg" id="ijffh0yzg_0">
                             <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div
                     class="blocklist blocklist--u-isqkg6p4y"
@@ -868,7 +814,7 @@
                     id="i5ilhbf7x_0"
                     data-do-form='{"screen":{"mode":"main","anketa_id":"4417106","initial_state":"{\"anketa_id\":\"4417106\",\"name\":\"\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0437\u0430\u044f\u0432\u043a\u0443\",\"submit_name\":\"\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c\",\"success_note\":\"\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0424\u043e\u0440\u043c\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430\",\"tag_id\":\"i5ilhbf7x\",\"symbol_id\":0,\"change\":false,\"dictionaries\":{\"iikcmjvjv\":{\"dictionary_id\":18235906,\"name\":\"E-mail:\",\"type_id\":13,\"required\":false,\"alias\":\"email\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__email__\",\"change\":false},\"i9391zn71\":{\"dictionary_id\":18236106,\"name\":\"\u0422\u0435\u043b\u0435\u0444\u043e\u043d:\",\"type_id\":15,\"required\":true,\"alias\":\"phone\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__phone__\",\"change\":false},\"iz024iegz\":{\"dictionary_id\":18236306,\"name\":\"\u0413\u0430\u043b\u043e\u0447\u043a\u0430\",\"type_id\":7,\"required\":false,\"alias\":\"field_63504904\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"\",\"change\":false}}}","nativeStyle":true}}'
                 >
-                    <form id="imun1co7f_0" action="rieltorskie-uslugi.html#" class="mosaic-form__form mosaic-form__form--u-imun1co7f" data-s3-anketa-id="4417106">
+                    <form id="imun1co7f_0" action="/#" class="mosaic-form__form mosaic-form__form--u-imun1co7f" data-s3-anketa-id="4417106">
                         <div id="ieseq81r9_0" class="div div--u-ieseq81r9">
                             <div id="i05ettcjp_0" class="mosaic-form__title mosaic-form__title--u-i05ettcjp"><span class="text-block-wrap-div">Оставьте заявку</span></div>
                         </div>

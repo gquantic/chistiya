@@ -10,16 +10,16 @@
         <div class="section section--u-inxu8791y" id="inxu8791y_0" data-do-section='{"screen":{"scroll":false,"smooth":true}}'>
             <div class="div div--u-isgdfq56b" id="isgdfq56b_0">
                 <a
-                    href="rieltorskie-uslugi.html"
+                    href="/"
                     class="link-universal link-universal--u-iobuim118"
                     id="iobuim118_0"
                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                 >
                     <div class="imageFit imageFit--u-ib3u1v0gh" id="ib3u1v0gh_0" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
                         <img
-                            data-origin-src="/thumb/2/vLSEkarpsS7IKYrS1ko3yg/r/d/logo5.png"
+                            data-origin-src="{{ asset('assets/img/chistiyya.jpg') }}"
                             data-size="75x75"
-                            src="/thumb/2/o-64Vqb9n2fSpVr5CVEigA/1900r1900/d/logo5.png"
+                            src="{{ asset('assets/img/chistiyya.jpg') }}"
                             alt="logo5"
                             title=""
                             class="imageFit__img imageFit__img--u-ig03fb2ff"
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="rich-text rich-text--u-icj5zh8aq" id="icj5zh8aq_0">
-                        <div class="text-block-wrap-div"><span style="color:#24b501;">ВАШЕ</span> НАЗВАНИЕ</div>
+                        <div class="text-block-wrap-div">{{ config('app.name') }}</div>
                     </div>
                     <div class="text text--u-i7z2rnye1" id="i7z2rnye1_0">
                         <span class="text-block-wrap-div">Хозяйственные товары, бытовая химия</span>
@@ -42,7 +42,7 @@
                         <div class="list list--u-i6390seub" id="i6390seub_0">
                             <div class="list__item list__item--u-i3car0bed" id="i3car0bed_0">
                                 <a
-                                    href="rieltorskie-uslugi.html"
+                                    href="/"
                                     class="link-universal link-universal--u-ihyeewwvz"
                                     id="ihyeewwvz_0"
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -86,7 +86,7 @@
     <div class='section section--u-iyqsb6x9r' id='iyqsb6x9r_0' data-do-section='{"screen":{"scroll":false,"smooth":"1"}}'>
         <div class='container container--u-ibhkb6orm' id='ibhkb6orm_0'>
             <div data-url='/otzyvy-o-nas' class='mosaic-crumbs mosaic-crumbs--u-iwcf1mvng' id='iwcf1mvng_0' data-do-crumbs='{"screen":{"delimiter":"\/"}}'>
-                <a href="rieltorskie-uslugi.html" class="mosaic-crumbs__item_link mosaic-crumbs__item_link--u-ipf6t0r47" ><span class="text-block-wrap-div">Главная</span></a><span class="mosaic-crumbs__delimiter mosaic-crumbs__delimiter--u-ifgrzfe4c">/</span><span class="mosaic-crumbs__last mosaic-crumbs__last--u-i642bv3vr"><span class="text-block-wrap-div">Отзывы о нас</span></span>
+                <a href="/" class="mosaic-crumbs__item_link mosaic-crumbs__item_link--u-ipf6t0r47" ><span class="text-block-wrap-div">Главная</span></a><span class="mosaic-crumbs__delimiter mosaic-crumbs__delimiter--u-ifgrzfe4c">/</span><span class="mosaic-crumbs__last mosaic-crumbs__last--u-i642bv3vr"><span class="text-block-wrap-div">Отзывы о нас</span></span>
             </div>
             <h1 class='page-title page-title--u-iwsxusnpi' id='iwsxusnpi_0'>
                 Отзывы о нас

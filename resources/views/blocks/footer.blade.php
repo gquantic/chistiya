@@ -32,7 +32,7 @@
                                     <div class="list list--u-inv04tcvs" id="inv04tcvs_0">
                                         <div class="list__item list__item--u-iec0gbct1" id="iec0gbct1_0">
                                             <a
-                                                href="rieltorskie-uslugi.html"
+                                                href="/"
                                                 class="link-universal link-universal--u-iyeca73qm"
                                                 id="iyeca73qm_0"
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -69,7 +69,7 @@
                                     <div class="list list--u-ir8qerax5" id="ir8qerax5_0">
                                         <div class="list__item list__item--u-iuobyq28u" id="iuobyq28u_0">
                                             <a
-                                                href="rieltorskie-uslugi.html"
+                                                href="/"
                                                 class="link-universal link-universal--u-ib7f93dfk"
                                                 id="ib7f93dfk_0"
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -192,7 +192,7 @@
                                     <div class="list list--u-i2a90muc0" id="i2a90muc0_0">
                                         <div class="list__item list__item--u-ib2jrfhwp" id="ib2jrfhwp_0">
                                             <a
-                                                href="rieltorskie-uslugi.html"
+                                                href="/"
                                                 class="link-universal link-universal--u-i9fjhjg7z"
                                                 id="i9fjhjg7z_0"
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'

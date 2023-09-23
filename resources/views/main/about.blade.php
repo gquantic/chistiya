@@ -9,16 +9,16 @@
         <div class="section section--u-inxu8791y" id="inxu8791y_0" data-do-section='{"screen":{"scroll":false,"smooth":true}}'>
             <div class="div div--u-isgdfq56b" id="isgdfq56b_0">
                 <a
-                    href="rieltorskie-uslugi.html"
+                    href="/"
                     class="link-universal link-universal--u-iobuim118"
                     id="iobuim118_0"
                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                 >
                     <div class="imageFit imageFit--u-ib3u1v0gh" id="ib3u1v0gh_0" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
                         <img
-                            data-origin-src="/thumb/2/vLSEkarpsS7IKYrS1ko3yg/r/d/logo5.png"
+                            data-origin-src="{{ asset('assets/img/chistiyya.jpg') }}"
                             data-size="75x75"
-                            src="thumb/2/o-64Vqb9n2fSpVr5CVEigA/1900r1900/d/logo5.png"
+                            src="{{ asset('assets/img/chistiyya.jpg') }}"
                             alt="logo5"
                             title=""
                             class="imageFit__img imageFit__img--u-ig03fb2ff"
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="rich-text rich-text--u-icj5zh8aq" id="icj5zh8aq_0">
-                        <div class="text-block-wrap-div"><span style="color:#24b501;">ВАШЕ</span> НАЗВАНИЕ</div>
+                        <div class="text-block-wrap-div">{{ config('app.name') }}</div>
                     </div>
                     <div class="text text--u-i7z2rnye1" id="i7z2rnye1_0">
                         <span class="text-block-wrap-div">Хозяйственные товары, бытовая химия</span>
@@ -41,7 +41,7 @@
                         <div class="list list--u-i6390seub" id="i6390seub_0">
                             <div class="list__item list__item--u-i3car0bed" id="i3car0bed_0">
                                 <a
-                                    href="rieltorskie-uslugi.html"
+                                    href="/"
                                     class="link-universal link-universal--u-ihyeewwvz"
                                     id="ihyeewwvz_0"
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -62,16 +62,17 @@
         <div class="div div--u-it6svcs4u" id="it6svcs4u_0">
             <div class="div div--u-icqy1awcl" id="icqy1awcl_0">
                 <div class="div div--u-iiv5c7rmv" id="iiv5c7rmv_0">
-                    <div
+                    <a
                         role="button"
                         class="link-universal link-universal--u-ilji3h8ds"
                         id="ilji3h8ds_0"
                         data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                        href="{{ route('categories.index') }}"
                     >
                         <div class="text text--u-iu0pro5rx" id="iu0pro5rx_0">
                             <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
                         </div>
-                    </div>
+                    </a>
                     <div class="text text--u-i1uere2vm" id="i1uere2vm_0">
                         <span class="text-block-wrap-div">Оставьте заявку и мы свяжемся с Вами в ближайшее время</span>
                     </div>
@@ -85,7 +86,7 @@
     <div class="section section--u-iyqsb6x9r" id="iyqsb6x9r_0" data-do-section='{"screen":{"scroll":false,"smooth":"1"}}'>
         <div class="container container--u-ibhkb6orm" id="ibhkb6orm_0">
             <div data-url="/about" class="mosaic-crumbs mosaic-crumbs--u-iwcf1mvng" id="iwcf1mvng_0" data-do-crumbs='{"screen":{"delimiter":"\/"}}'>
-                <a href="rieltorskie-uslugi.html" class="mosaic-crumbs__item_link mosaic-crumbs__item_link--u-ipf6t0r47"><span class="text-block-wrap-div">Главная</span></a>
+                <a href="/" class="mosaic-crumbs__item_link mosaic-crumbs__item_link--u-ipf6t0r47"><span class="text-block-wrap-div">Главная</span></a>
                 <span class="mosaic-crumbs__delimiter mosaic-crumbs__delimiter--u-ifgrzfe4c">/</span><span class="mosaic-crumbs__last mosaic-crumbs__last--u-i642bv3vr"><span class="text-block-wrap-div">О компании</span></span>
             </div>
             <h1 class="page-title page-title--u-iwsxusnpi" id="iwsxusnpi_0">
@@ -118,43 +119,9 @@
                                 <div class="lpc-row lpc-elements-text-1__row _left">
                                     <div class="lpc-col-12-xl lpc-col-12-lg lpc-col-12-md lpc-col-12-sm lpc-col-12-xs lpc-elements-text-1__text-wrapper">
                                         <div class="lp-header-text-1 lpc-elements-text-1__text" data-elem-type="text" data-lp-selector=".lpc-elements-text-1__text" data-path="text">
-                                            <p>
-                                                <br />
-                                                В этом блоке мы рекомендуем разместить информацию о Вашей организации, подчеркнуть ее значимость и надежность на рынке оказываемых услуг или предлагаемых товаров.
-                                            </p>
-                                            <p>
-                                                Примечание. Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не скопированной с других интернет-ресурсов, о чем указано в рекомендациях
-                                                Яндекса: &laquo;Мы стараемся не индексировать или не ранжировать высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального контента или сервиса&raquo;.
-                                            </p>
-                                            <h3>Пример заполнения страницы:</h3>
-                                            <p>
-                                                Вас приветствует компания &laquo;...&raquo; &lt;<span style="color: #ff0000;">в</span>
-                                                <span style="color: #e44f50;"><span style="color: #ff0000;">ведите название компании</span><span style="color: #000000;">&gt;</span></span>!
-                                            </p>
-                                            <p>
-                                                &hellip;&lt;
-                                                <span style="color: #ff0000;">
-																<em>введите название компании</em>&gt; &nbsp;- динамично развивающаяся компания в области/сфере &hellip; &lt;<em>укажите сферу деятельности</em>
-															</span>
-                                                &gt;.
-                                            </p>
-                                            <p>Мы рады предложить вам широкий спектр услуг по &hellip; &lt;<span style="color: #ff0000;">укажите предлагаемые услуги</span>&gt; по самым выгодным ценам.</p>
-                                            <p>или</p>
-                                            <p>
-                                                Мы рады предложить вам широкий ассортимент &hellip; &lt;<em><span style="color: #e44f50;">укажите предлагаемые товары</span></em>&gt; по самым выгодным ценам.
-                                            </p>
-                                            <p>
-                                                Вот уже &hellip; &lt;<em><span style="color: #e44f50;">укажите стаж работы компании</span></em>&gt; лет наша компания занимает уверенные позиции на рынке и предоставляет только
-                                                самые современные решения, позволяя нашим клиентам делать заказы через сайт.
-                                            </p>
-                                            <p>
-                                                За годы успешной работы компания &hellip; &lt;<em><span style="color: #e44f50;">введите название компании</span></em>&gt; приобрела бесценный опыт, о чем свидетельствуют лестные
-                                                отзывы наших клиентов.
-                                            </p>
-                                            <p>
-                                                В случае если у Вас возникли вопросы при оформлении заказа, Вы всегда можете обратиться в наш справочный центр по телефону &hellip; &lt;
-                                                <em><span style="color: #e44f50;">укажите номер телефона</span></em>&gt; или воспользовавшись онлайн-консультантом на сайте.
-                                            </p>
+                                            Добро пожаловать в мир ЧистыйЯ –магазина бытовой химии, где эстетика и необычность встречаются со сверкающей чистотой.
+                                            <br>
+                                            Мы создаем пространство, где каждая ваша повседневная тревога о стирке, уборке или уходе за домом решается с легкостью и стилем.
                                         </div>
                                     </div>
                                 </div>
@@ -170,15 +137,15 @@
                                 <div class="lpc-menu-1__inner lpc-row _left">
                                     <ul class="lpc-menu-1__list lpc-col-4-xl lpc-col-4-lg lpc-col-4-md lpc-col-12-sm lpc-col-12-xs" data-lp-selector=".lpc-menu-1__list" data-elem-type="card_container">
                                         <li class="lpc-menu-1__item">
-                                            <a href="stati-i-sovety.html" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
-                                                <span class="lpc-menu-1__link-text lpc-button--type-2">Статьи и советы</span>
+                                            <a href="{{ route('reviews.index') }}" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
+                                                <span class="lpc-menu-1__link-text lpc-button--type-2">Отзывы о нас</span>
                                                 <span class="lpc-menu-1__arrow" data-elem-type="container" data-lp-selector=".lpc-menu-1__arrow-line">
 																<span class="lpc-menu-1__arrow-line"></span><span class="lpc-menu-1__arrow-line"></span>
 															</span>
                                             </a>
                                         </li>
                                         <li class="lpc-menu-1__item">
-                                            <a href="napishite-nam.html" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
+                                            <a href="{{ route('contacts') }}" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
                                                 <span class="lpc-menu-1__link-text lpc-button--type-2">Напишите нам</span>
                                                 <span class="lpc-menu-1__arrow" data-elem-type="container" data-lp-selector=".lpc-menu-1__arrow-line">
 																<span class="lpc-menu-1__arrow-line"></span><span class="lpc-menu-1__arrow-line"></span>
@@ -186,8 +153,8 @@
                                             </a>
                                         </li>
                                         <li class="lpc-menu-1__item">
-                                            <a href="usloviya-oplaty.html" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
-                                                <span class="lpc-menu-1__link-text lpc-button--type-2">Условия оплаты</span>
+                                            <a href="{{ route('delivery') }}" class="lpc-menu-1__link lp-button" data-lp-selector=".lpc-menu-1__link" data-elem-type="text">
+                                                <span class="lpc-menu-1__link-text lpc-button--type-2">Доставка</span>
                                                 <span class="lpc-menu-1__arrow" data-elem-type="container" data-lp-selector=".lpc-menu-1__arrow-line">
 																<span class="lpc-menu-1__arrow-line"></span><span class="lpc-menu-1__arrow-line"></span>
 															</span>

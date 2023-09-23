@@ -23,7 +23,8 @@
         var mosaicTimeZone = 'Asia/Tashkent';
     </script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 
     <link rel="stylesheet" href="{{ asset('g/s3/mosaic/css/ms_site_default.css') }}">
     <script src="{{ asset('g/libs/jquery/1.10.2/jquery.min.js') }}"></script>
@@ -78,23 +79,25 @@
         </div>
 
         @if(request()->path() == '/')
-            <div
-                role="button"
-                class="link-universal link-universal--u-ighrc7wcc"
-                id="ighrc7wcc_0"
-                data-do-link_universal='{"screen":{"type":"button","popup":"iwjw1glua_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-            >
-			<span class="svg_image svg_image--u-id9mb1keq" id="id9mb1keq_0" data-do-svg_image='{"screen":{"stretch":true}}'>
-				<svg xmlns="http://www.w3.org/2000/svg" width="51.97" height="80" viewBox="0 0 51.97 80" data-prefix="i371zxutc">
-					<path
-                        data-name="4.svg"
-                        d="M25.98 35.019a3.144 3.144 0 1 0 0-6.287 3.773 3.773 0 1 1 3.77-3.774 3.145 3.145 0 0 0 6.29 0 10.055 10.055 0 1 0-10.06 10.061zM2.23 36.696l19.02 40.31a5.219 5.219 0 0 0 9.44 0L49.7 36.725a3.012 3.012 0 0 0 .16-.394 25.771 25.771 0 0 0 2.12-10.28A26 26 0 1 0 2.01 36.116a5.5 5.5 0 0 0 .22.58zm23.75-30.4a19.759 19.759 0 0 1 18.01 27.777.579.579 0 0 0-.04.117L25.97 72.278l-17.98-38.1a.12.12 0 0 0-.01-.032 1.987 1.987 0 0 0-.12-.328A19.758 19.758 0 0 1 25.98 6.296z"
-                        fill-rule="evenodd"
-                        class="path-ibddkaivl"
-                    />
-				</svg>
-			</span>
-            </div>
+            <a href="{{ route('contacts') }}" class="text-decoration-none">
+                <div
+                    role="button"
+                    class="link-universal link-universal--u-ighrc7wcc"
+                    id="ighrc7wcc_0"
+                    data-do-link_universal='{"screen":{"type":"button","popup":"iwjw1glua_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                >
+                <span class="svg_image svg_image--u-id9mb1keq" id="id9mb1keq_0" data-do-svg_image='{"screen":{"stretch":true}}'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="51.97" height="80" viewBox="0 0 51.97 80" data-prefix="i371zxutc">
+                        <path
+                            data-name="4.svg"
+                            d="M25.98 35.019a3.144 3.144 0 1 0 0-6.287 3.773 3.773 0 1 1 3.77-3.774 3.145 3.145 0 0 0 6.29 0 10.055 10.055 0 1 0-10.06 10.061zM2.23 36.696l19.02 40.31a5.219 5.219 0 0 0 9.44 0L49.7 36.725a3.012 3.012 0 0 0 .16-.394 25.771 25.771 0 0 0 2.12-10.28A26 26 0 1 0 2.01 36.116a5.5 5.5 0 0 0 .22.58zm23.75-30.4a19.759 19.759 0 0 1 18.01 27.777.579.579 0 0 0-.04.117L25.97 72.278l-17.98-38.1a.12.12 0 0 0-.01-.032 1.987 1.987 0 0 0-.12-.328A19.758 19.758 0 0 1 25.98 6.296z"
+                            fill-rule="evenodd"
+                            class="path-ibddkaivl"
+                        />
+                    </svg>
+                </span>
+                </div>
+            </a>
         @endif
 
         @yield('content')
@@ -123,7 +126,7 @@
                         id="iynm1e6to_0"
                         data-do-form='{"screen":{"mode":"main","anketa_id":"4414906","initial_state":"{\"anketa_id\":\"4414906\",\"name\":\"\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0437\u0430\u044f\u0432\u043a\u0443\",\"submit_name\":\"\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c\",\"success_note\":\"\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0424\u043e\u0440\u043c\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430\",\"tag_id\":\"iynm1e6to\",\"symbol_id\":\"symbol-i20nssi6m\",\"change\":false,\"dictionaries\":{\"i8216lgc6\":{\"dictionary_id\":18236506,\"name\":\"E-mail:\",\"type_id\":13,\"required\":false,\"alias\":\"email\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__email__\",\"change\":false},\"iqtcbfz3s\":{\"dictionary_id\":18236706,\"name\":\"\u0422\u0435\u043b\u0435\u0444\u043e\u043d:\",\"type_id\":15,\"required\":true,\"alias\":\"phone\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__phone__\",\"change\":false},\"ikpc1hqs5\":{\"dictionary_id\":18236906,\"name\":\"\u0413\u0430\u043b\u043e\u0447\u043a\u0430\",\"type_id\":7,\"required\":false,\"alias\":\"field_63504904\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"\",\"change\":false}}}","nativeStyle":true}}'
                     >
-                        <form id="iwvo9so0k_0" action="rieltorskie-uslugi.html#" class="mosaic-form__form mosaic-form__form--u-iwvo9so0k" data-s3-anketa-id="4414906">
+                        <form id="iwvo9so0k_0" action="/#" class="mosaic-form__form mosaic-form__form--u-iwvo9so0k" data-s3-anketa-id="4414906">
                             <div id="iec4fyvh7_0" class="div div--u-iec4fyvh7">
                                 <div id="ir0j3v6mb_0" class="imageFit imageFit--u-ir0j3v6mb" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1800,"maxWidth":1800}}'>
                                     <img id="i3j1gbqcz_0" src="d/edth1.jpg" data-src-alt="" alt="edth1" class="imageFit__img imageFit__img--u-i3j1gbqcz" />
@@ -231,7 +234,7 @@
                         id="i4j8vnhzh_0"
                         data-do-form='{"screen":{"mode":"main","anketa_id":"4415106","initial_state":"{\"anketa_id\":\"4415106\",\"name\":\"\u041e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u0437\u0430\u044f\u0432\u043a\u0443\",\"submit_name\":\"\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c\",\"success_note\":\"\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \u0424\u043e\u0440\u043c\u0430 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0430\",\"tag_id\":\"i4j8vnhzh\",\"symbol_id\":\"symbol-i6p5a9j56\",\"change\":false,\"dictionaries\":{\"ielbjj0js\":{\"dictionary_id\":18237106,\"name\":\"E-mail:\",\"type_id\":13,\"required\":false,\"alias\":\"email\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__email__\",\"change\":false},\"iexacguxx\":{\"dictionary_id\":18237306,\"name\":\"\u0422\u0435\u043b\u0435\u0444\u043e\u043d:\",\"type_id\":15,\"required\":true,\"alias\":\"phone\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"__phone__\",\"change\":false},\"i33s87wxh\":{\"dictionary_id\":18237506,\"name\":\"\u0413\u0430\u043b\u043e\u0447\u043a\u0430\",\"type_id\":7,\"required\":false,\"alias\":\"field_63504904\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"\",\"change\":false},\"ih1ogymsr\":{\"dictionary_id\":18237706,\"name\":\"\u0423\u0441\u043b\u0443\u0433\u0430:\",\"type_id\":14,\"required\":\"\",\"alias\":\"field_225926505\",\"note\":\"\",\"variants\":[],\"params_value\":\"\",\"validator\":\"\",\"change\":false}}}","nativeStyle":true}}'
                     >
-                        <form id="is7sase7u_0" action="rieltorskie-uslugi.html#" class="mosaic-form__form mosaic-form__form--u-is7sase7u" data-s3-anketa-id="4415106">
+                        <form id="is7sase7u_0" action="/#" class="mosaic-form__form mosaic-form__form--u-is7sase7u" data-s3-anketa-id="4415106">
                             <div id="inp1th1pn_0" class="div div--u-inp1th1pn">
                                 <div id="ielg0s3od_0" class="imageFit imageFit--u-ielg0s3od" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1800,"maxWidth":1800}}'>
                                     <img id="iqf94hsv2_0" src="d/edth1.jpg" data-src-alt="" alt="edth1" class="imageFit__img imageFit__img--u-iqf94hsv2" />
@@ -352,7 +355,7 @@
                             <div class="list list--u-ikkenhm0x" id="ikkenhm0x_0">
                                 <div class="list__item list__item--u-isjfjse11" id="isjfjse11_0">
                                     <a
-                                        href="rieltorskie-uslugi.html"
+                                        href="/"
                                         class="link-universal link-universal--u-ixh6tlotm"
                                         id="ixh6tlotm_0"
                                         data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -371,7 +374,7 @@
                                 </div>
                                 <div class="list__item list__item--u-isjfjse11" id="isjfjse11_1">
                                     <a
-                                        href="rieltorskie-uslugi.html"
+                                        href="/"
                                         class="link-universal link-universal--u-ixh6tlotm"
                                         id="ixh6tlotm_1"
                                         data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
@@ -477,6 +480,8 @@
 </body>
 </html>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 <script async>
     document.addEventListener("DOMContentLoaded", function() {
         window.siteDirPath = '{$DESIGN_DIR}';
@@ -493,3 +498,5 @@
 
 
 <script async src="{{ asset('g/solutions_panel_v2/js/spanel.js') }}" id="solutions-panel" data-solutions-key="9525131162"></script>
+
+@stack('scripts')
