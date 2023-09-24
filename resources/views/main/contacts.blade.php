@@ -48,7 +48,7 @@
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                 >
                                     <div class="text text--u-idopc082e" id="idopc082e_0">
-                                        <span class="text-block-wrap-div">+7 (012) 345-67-89</span>
+                                        <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
                                     </div>
                                 </a>
                             </div>
@@ -119,11 +119,7 @@
                                 <div class="lpc-row lpc-contact-2__row">
                                     <div class="lpc-col-8-xl lpc-col-8-lg lpc-col-6-md lpc-col-12-xs lpc-col-12-sm lpc-contact-2__map-wrap">
                                         <div class="lpc-contact-2__map-inner lpc-image-type-1" data-lp-selector=".lpc-contact-2__map-inner" data-elem-type="card_container">
-                                            <div
-                                                data-init-params='{"data": [{"name": "Название компании", "coords": "59.851312,30.301015", "desc": "Описание организации"}],"key": "","zoom": 11,"center": "59.851312,30.301015","type": "yandex","id": "map-161281907"}'
-                                                class="lpc-contact-2__map js-lpc-simple-map lp-map-placeholder"
-                                                id="map-161281907"
-                                            ></div>
+                                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A52bb0e669a917d42fe11a7a0e2752ac7359c3bd690a4668eaf602b668c6bdd92&amp;source=constructor" width="750" height="600" frameborder="0"></iframe>
                                         </div>
                                     </div>
                                     <div class="lpc-col-4-xl lpc-col-4-lg lpc-col-6-md lpc-col-12-xs lpc-col-12-sm lpc-contact-2__content">
@@ -134,33 +130,33 @@
                                                         Бесплатно по России
                                                     </div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">+7 (123) 123-45-67</a>
+                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">+7 (861) 262-60-93</a>
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item _tel-item _last-item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="phones.1.tel_title">Отдел продаж</div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">+7 (123) 123-45-67</a>
-                                                        <a
-                                                            href="https://www.whatsapp.com"
-                                                            target="_blank"
-                                                            class="lpc-contact-2__item-messenger"
-                                                            data-elem-type="unresize_image"
-                                                            data-lp-selector=".lpc-contact-2__item-messenger"
-                                                            data-path="phones.1.messenger.0.image"
-                                                        >
-                                                            <img width="40" height="40" src="thumb/2/c0Zgg6iEvlPWB8sre4epuw/40r40/d/fgs16_whatsapp_rounded.svg" alt="" />
-                                                        </a>
-                                                        <a
-                                                            href="https://telegram.org"
-                                                            target="_blank"
-                                                            class="lpc-contact-2__item-messenger"
-                                                            data-elem-type="unresize_image"
-                                                            data-lp-selector=".lpc-contact-2__item-messenger"
-                                                            data-path="phones.1.messenger.1.image"
-                                                        >
-                                                            <img width="40" height="40" src="thumb/2/hO0_UGpeAxjmE2uOhLGL3w/40r40/d/fgs16_telegram_rounded.svg" alt="" />
-                                                        </a>
+                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">+7 (861) 262-60-93</a>
+{{--                                                        <a--}}
+{{--                                                            href="https://www.whatsapp.com"--}}
+{{--                                                            target="_blank"--}}
+{{--                                                            class="lpc-contact-2__item-messenger"--}}
+{{--                                                            data-elem-type="unresize_image"--}}
+{{--                                                            data-lp-selector=".lpc-contact-2__item-messenger"--}}
+{{--                                                            data-path="phones.1.messenger.0.image"--}}
+{{--                                                        >--}}
+{{--                                                            <img width="40" height="40" src="thumb/2/c0Zgg6iEvlPWB8sre4epuw/40r40/d/fgs16_whatsapp_rounded.svg" alt="" />--}}
+{{--                                                        </a>--}}
+{{--                                                        <a--}}
+{{--                                                            href="https://telegram.org"--}}
+{{--                                                            target="_blank"--}}
+{{--                                                            class="lpc-contact-2__item-messenger"--}}
+{{--                                                            data-elem-type="unresize_image"--}}
+{{--                                                            data-lp-selector=".lpc-contact-2__item-messenger"--}}
+{{--                                                            data-path="phones.1.messenger.1.image"--}}
+{{--                                                        >--}}
+{{--                                                            <img width="40" height="40" src="thumb/2/hO0_UGpeAxjmE2uOhLGL3w/40r40/d/fgs16_telegram_rounded.svg" alt="" />--}}
+{{--                                                        </a>--}}
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item">
@@ -170,7 +166,7 @@
                                                 <div class="lpc-contact-2__item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="address_title">Адрес:</div>
                                                     <div class="lpc-contact-2__item-text lp-header-text-3" data-lp-selector=".lpc-contact-2__item-text" data-elem-type="text" data-path="address">
-                                                        г. Санкт-Петербург, ул. Садовая 6, Россия
+                                                        350004, Краснодарский край, г. Краснодар, ул. 1-я линия, д. 21/1
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item">
@@ -180,9 +176,9 @@
                                                         data-lp-selector=".lpc-contact-2__item-text"
                                                         data-elem-type="text"
                                                         data-path="mail_list.0.mail"
-                                                        href="mailto:mail@example.com"
+                                                        href="mailto:karpov1962@mail.ru"
                                                     >
-                                                        mail@example.com
+                                                        karpov1962@mail.ru
                                                     </a>
                                                 </div>
                                             </div>

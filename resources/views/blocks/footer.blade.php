@@ -38,7 +38,7 @@
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-iz77gsokt" id="iz77gsokt_0">
-                                                    <span class="text-block-wrap-div">+7 (012) 345-67-89</span>
+                                                    <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
                                                 </div>
                                             </a>
                                         </div>
