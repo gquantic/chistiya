@@ -13,15 +13,7 @@
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
-    <script>
-        var mapKeys = {
-            google: "",
-            yandex: ""
-        };
-        var mosaicDesignId = 448106;
-        var mosaicDesignPrefix = 'incpuhgqw-1654779286';
-        var mosaicTimeZone = 'Asia/Tashkent';
-    </script>
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -518,5 +510,16 @@
 
 
 <script async src="{{ asset('g/solutions_panel_v2/js/spanel.js') }}" id="solutions-panel" data-solutions-key="9525131162"></script>
+<script src="{{ asset('g/s3/mosaic/do/do.sidepanel.js') }}"></script>
+
+<script>
+    var mapKeys = {
+        google: "",
+        yandex: ""
+    };
+    var mosaicDesignId = 448106;
+    var mosaicDesignPrefix = 'incpuhgqw-1654779286';
+    var mosaicTimeZone = 'Asia/Tashkent';
+</script>
 
 @stack('scripts')

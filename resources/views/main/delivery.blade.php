@@ -63,16 +63,16 @@
         <div class="div div--u-it6svcs4u" id="it6svcs4u_0">
             <div class="div div--u-icqy1awcl" id="icqy1awcl_0">
                 <div class="div div--u-iiv5c7rmv" id="iiv5c7rmv_0">
-                    <div
+                    <a
                         role="button"
                         class="link-universal link-universal--u-ilji3h8ds"
-                        id="ilji3h8ds_0"
+                        id="ilji3h8ds_0"  href="{{ route('categories.index'); }}"
                         data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                     >
                         <div class="text text--u-iu0pro5rx" id="iu0pro5rx_0">
                             <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
                         </div>
-                    </div>
+                    </a>
                     <div class="text text--u-i1uere2vm" id="i1uere2vm_0">
                         <span class="text-block-wrap-div">Оставьте заявку и мы свяжемся с Вами в ближайшее время</span>
                     </div>

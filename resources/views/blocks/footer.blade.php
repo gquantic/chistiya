@@ -87,16 +87,17 @@
                             </div>
                         </div>
                         <div class="div div--u-i7jvwshs8" id="i7jvwshs8_0">
-                            <div
+                            <a
                                 role="button"
                                 class="link-universal link-universal--u-igob89vwu"
                                 id="igob89vwu_0"
                                 data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                href="{{ route('categories.index') }}"
                             >
                                 <div class="text text--u-i6be7m6qp" id="i6be7m6qp_0">
                                     <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
                                 </div>
-                            </div>
+                            </a>
                             <div class="text text--u-igvp32919" id="igvp32919_0">
                                 <span class="text-block-wrap-div">При заказе на сумму свыше 5 млн. рублей, Вы получаете скидку не менее 15%</span>
                             </div>
@@ -127,7 +128,7 @@
                                         data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"email","blank":false}}'
                                     >
                                         <div class="text text--u-iffeeaocw" id="iffeeaocw_0">
-                                            <span class="text-block-wrap-div">test@example.com</span>
+                                            <span class="text-block-wrap-div">karpov1962@mail.ru</span>
                                         </div>
                                     </a>
                                 </div>
@@ -170,7 +171,7 @@
                                         <span class="text-block-wrap-div">Адрес офиса:</span>
                                     </div>
                                     <div class="text text--u-icv32bkjc" id="icv32bkjc_0">
-                                        <span class="text-block-wrap-div">г. Москва, Ленинский проспект, дом</span>
+                                        <span class="text-block-wrap-div">350004, Краснодарский край, г. Краснодар, ул. 1-я линия, д. 21/1</span>
                                     </div>
                                 </div>
                             </div>
@@ -192,13 +193,14 @@
                                     <div class="list list--u-i2a90muc0" id="i2a90muc0_0">
                                         <div class="list__item list__item--u-ib2jrfhwp" id="ib2jrfhwp_0">
                                             <a
-                                                href="/"
+                                                href="tel:+7 (861) 262-60-93"
+                                                target="_blank"
                                                 class="link-universal link-universal--u-i9fjhjg7z"
                                                 id="i9fjhjg7z_0"
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-idhokstg3" id="idhokstg3_0">
-                                                    <span class="text-block-wrap-div">+1 (012) 945-67-89</span>
+                                                    <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
                                                 </div>
                                             </a>
                                         </div>
@@ -212,15 +214,17 @@
                     class="mosaic-map mosaic-map--u-i1z8qle13"
                     id="i1z8qle13_0"
                     data-do-map='{"screen":{"type":"yandex","zoom":"18","lang":"ru","center":"55.735956,37.400827","bullets":[{"name":"\u0417\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a \u0442\u043e\u0447\u043a\u0438","desc":"\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0442\u043e\u0447\u043a\u0438","coords":"55.735956,37.400827"}]}}'
-                ></div>
+                >
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A52bb0e669a917d42fe11a7a0e2752ac7359c3bd690a4668eaf602b668c6bdd92&amp;source=constructor" style="width:100%;height: 100%;" frameborder="0"></iframe>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="div div--u-ibzn7rbbw" id="ibzn7rbbw_0">
-    <div class="container container--u-icb2yiw4x" id="icb2yiw4x_0">
-        <div class="div div--u-it7vlwz3g" id="it7vlwz3g_0">
+    <div class="container container--u-icb2yiw4x align-items-start" id="icb2yiw4x_0">
+        <div class="div div--u-it7vlwz3g d-flex flex-column" id="it7vlwz3g_0">
             <a
                 href="https://mos-752134.oml.ru/o-kompanii"
                 class="link-universal link-universal--u-i8wusmijy"
@@ -233,18 +237,54 @@
                     </div>
                 </div>
             </a>
+            <br>
+            <a
+                href="/"
+                class="link-universal link-universal--u-i8wusmijy">
+                Главная
+            </a>
+            <a
+                href="{{ route('about') }}"
+                class="link-universal link-universal--u-i8wusmijy">
+                О нас
+            </a>
+            <a
+                href="{{ route('categories.index') }}"
+                class="link-universal link-universal--u-i8wusmijy">
+                Продукция
+            </a>
+            <a
+                href="{{ route('reviews.index') }}"
+                class="link-universal link-universal--u-i8wusmijy">
+                Отзывы
+            </a>
+            <a
+                href="{{ route('contacts') }}"
+                class="link-universal link-universal--u-i8wusmijy">
+                О нас
+            </a>
+            <a
+                href="{{ route('delivery') }}"
+                class="link-universal link-universal--u-i8wusmijy">
+                Доставка
+            </a>
         </div>
         <div class="mosaic-site-copyright mosaic-site-copyright--u-iqebj4z84" id="iqebj4z84_0">
-            Copyright &copy; 2022 - 2023 {{ config('app.name') }}
+
         </div>
         <div class="mosaic-site-counters mosaic-site-counters--u-ifvu92u3y" id="ifvu92u3y_0">
             <!--__INFO2023-09-10 17:20:07INFO__-->
         </div>
         <div class="div div--u-i26e2z1s6" id="i26e2z1s6_0">
-            <div class="div div--u-irm6dx1d7" id="irm6dx1d7_0">
-                <div class="mosaic-mega-copyright mosaic-mega-copyright--u-iv3jtds61" id="iv3jtds61_0">
-                    <span style="font-size:10px;" class="copyright"> Поддержка. <a target="_blank" href="https://t.me/gquantic" title="Разработка сайтов в Megagroup." class="copyright">Разработка сайтов</a>. </span>
-                </div>
+            <div class="div div--u-irm6dx1d7 d-flex flex-column" id="irm6dx1d7_0">
+{{--                <div class="mosaic-mega-copyright mosaic-mega-copyright--u-iv3jtds61" id="iv3jtds61_0">--}}
+{{--                    <span style="font-size:10px;" class="copyright"> Поддержка. <a target="_blank" href="https://t.me/gquantic" title="Разработка сайтов в Megagroup." class="copyright">Разработка сайтов</a>. </span>--}}
+{{--                </div>--}}
+                <p>
+                    Карпов Сергей Николаевич <br>
+                    ИНН: 231004591311 <br>
+                    ОГРНИП: 321237500402390
+                </p>
             </div>
             <button class="button-up button-up--u-ily2liaaf" id="ily2liaaf_0" data-do-button_up='{"screen":{"speed":"slow"}}'>
 				<span class="svg_image svg_image--u-i103e7qed" id="i103e7qed_0" data-do-svg_image='{"screen":{"stretch":true}}'>

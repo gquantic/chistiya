@@ -63,16 +63,16 @@
         <div class="div div--u-it6svcs4u" id="it6svcs4u_0">
             <div class="div div--u-icqy1awcl" id="icqy1awcl_0">
                 <div class="div div--u-iiv5c7rmv" id="iiv5c7rmv_0">
-                    <div
+                    <a
                         role="button"
                         class="link-universal link-universal--u-ilji3h8ds"
-                        id="ilji3h8ds_0"
+                        id="ilji3h8ds_0"  href="{{ route('categories.index'); }}"
                         data-do-link_universal='{"screen":{"type":"button","popup":"i20nssi6m_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                     >
                         <div class="text text--u-iu0pro5rx" id="iu0pro5rx_0">
                             <span class="text-block-wrap-div">ЗАКАЗАТЬ ONLINE</span>
                         </div>
-                    </div>
+                    </a>
                     <div class="text text--u-i1uere2vm" id="i1uere2vm_0">
                         <span class="text-block-wrap-div">Оставьте заявку и мы свяжемся с Вами в ближайшее время</span>
                     </div>
@@ -95,20 +95,6 @@
             <div class="content content--u-iwikiu4za" id="iwikiu4za_0" data-do-content='{"screen":{"image":false,"gallery":false,"text":false,"headers":false}}'>
                 <link rel="stylesheet" href="g/s3/css/submenu/submenu.blue.css" />
                 <div class="lpc-content-wrapper">
-                    <script>
-                        var mapKeys = {google: "",yandex: ""};
-                    </script>
-                    <!-- LP requires -->
-                    <link rel="stylesheet" href="g/s3/lp/lpc.v4/css/form.styles.css" type="text/css" /><link rel="stylesheet" href="g/s3/lp/lpc.v4/css/styles.css" type="text/css" />
-                    <script src="g/s3/lp/lpc.v4/js/main.js"></script>
-                    <div id="lpc-styles-container"></div>
-                    <!-- LP requires -->
-                    <script>
-                        s3LP.page_blocking = false;s3LP.templateID = 706;
-                    </script>
-                    <script>
-                        $(window).on("load", function(){s3LP.init({"is_cms":false});});
-                    </script>
                     <div class="decor-wrap">
                         <div class="lpc-contact-2 lpc-block" id="_lp_block_161281907" data-block-layout="347106" data-elem-type="block">
                             <div class="lp-block-bg _not_fill">
@@ -201,26 +187,44 @@
                         </div>
                     </div>
                 </div>
-                <script>
-                    let decorWrap = document.querySelector(".decor-wrap");
-
-                    if(!!decorWrap) {
-                        let decorWrapWidth = decorWrap.offsetWidth;
-
-                        if (decorWrapWidth < 480) {
-                            decorWrap.setAttribute("data-media-source", "media-xs");
-                        } else if (decorWrapWidth < 768) {
-                            decorWrap.setAttribute("data-media-source", "media-sm");
-                        } else if (decorWrapWidth < 992) {
-                            decorWrap.setAttribute("data-media-source", "media-md");
-                        } else if (decorWrapWidth < 1280) {
-                            decorWrap.setAttribute("data-media-source", "media-lg");
-                        } else if (decorWrapWidth >= 1280) {
-                            decorWrap.setAttribute("data-media-source", "media-xl");
-                        }
-                    }
-                </script>
             </div>
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <script>
+        let decorWrap = document.querySelector(".decor-wrap");
+
+        if(!!decorWrap) {
+            let decorWrapWidth = decorWrap.offsetWidth;
+
+            if (decorWrapWidth < 480) {
+                decorWrap.setAttribute("data-media-source", "media-xs");
+            } else if (decorWrapWidth < 768) {
+                decorWrap.setAttribute("data-media-source", "media-sm");
+            } else if (decorWrapWidth < 992) {
+                decorWrap.setAttribute("data-media-source", "media-md");
+            } else if (decorWrapWidth < 1280) {
+                decorWrap.setAttribute("data-media-source", "media-lg");
+            } else if (decorWrapWidth >= 1280) {
+                decorWrap.setAttribute("data-media-source", "media-xl");
+            }
+        }
+    </script>
+
+    <script>
+        var mapKeys = {google: "",yandex: ""};
+    </script>
+    <!-- LP requires -->
+    <link rel="stylesheet" href="g/s3/lp/lpc.v4/css/form.styles.css" type="text/css" /><link rel="stylesheet" href="g/s3/lp/lpc.v4/css/styles.css" type="text/css" />
+    <script src="g/s3/lp/lpc.v4/js/main.js"></script>
+    <div id="lpc-styles-container"></div>
+    <!-- LP requires -->
+    <script>
+        s3LP.page_blocking = false;s3LP.templateID = 706;
+    </script>
+    <script>
+        $(window).on("load", function(){s3LP.init({"is_cms":false});});
+    </script>
+@endpush
