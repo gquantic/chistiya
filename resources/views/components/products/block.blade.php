@@ -1,4 +1,7 @@
 <div class="products__item">
+    <div class="img">
+        <img src="/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png" alt="">
+    </div>
     <div class="title">
         {{ $product->title }} {{ $product->volume }} {{ $product->volume_text }}
     </div>
