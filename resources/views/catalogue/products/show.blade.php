@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="col-xs-12 mt-3 mb-5">
-                <hr class="mt-3 mb-3">
+                <hr class="mt-3 mb-3">w
                 <order-form item="{{ json_encode($product) }}"></order-form>
             </div>
         </div>

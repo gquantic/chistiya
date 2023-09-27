@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a562c20b3e1d35bdc8862079d025bb06",
+    "content-hash": "1978dc852e2d86195ffb1a48b0346430",
     "packages": [
         {
             "name": "brick/math",
@@ -2849,16 +2849,16 @@
         },
         {
             "name": "orchid/platform",
-            "version": "14.11.0",
+            "version": "14.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchidsoftware/platform.git",
-                "reference": "b8f8bddbb35698772c54ae271b0dacdde3ace3e5"
+                "reference": "710ffc53c83d959c08b98aa7f1993593a95b04d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchidsoftware/platform/zipball/b8f8bddbb35698772c54ae271b0dacdde3ace3e5",
-                "reference": "b8f8bddbb35698772c54ae271b0dacdde3ace3e5",
+                "url": "https://api.github.com/repos/orchidsoftware/platform/zipball/710ffc53c83d959c08b98aa7f1993593a95b04d7",
+                "reference": "710ffc53c83d959c08b98aa7f1993593a95b04d7",
                 "shasum": ""
             },
             "require": {
@@ -2952,7 +2952,7 @@
                     "type": "opencollective"
                 }
             ],
-            "time": "2023-09-10T00:20:09+00:00"
+            "time": "2023-09-22T02:21:20+00:00"
         },
         {
             "name": "phpoffice/phpspreadsheet",
@@ -8984,5 +8984,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
