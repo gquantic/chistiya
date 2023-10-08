@@ -14,7 +14,7 @@
             <div class="col-xs-12">
                 <div class="row">
                     <div class="col-md-4 col-xs-12">
-                        <img src="/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png" style="width: 400px !important" alt="">
+                        <img src="{{ $product->getImage() }}" style="width: 400px !important" alt="">
                     </div>
                     <div class="col-md-8 col-xs-12">
                         <div class="row">
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="col-xs-12 mt-3 mb-5">
-                <hr class="mt-3 mb-3">w
+                <hr class="mt-3 mb-3">
                 <order-form item="{{ json_encode($product) }}"></order-form>
             </div>
         </div>

@@ -217,186 +217,53 @@
                 >
                     <div class="blocklist__items_wrapper blocklist__items_wrapper--u-ig5d99w9z" id="ig5d99w9z_0">
                         <div class="blocklist__list blocklist__list--u-ix3e1uxno" id="ix3e1uxno_0">
-                            <div class="blocklist__item__outer blocklist__item__outer--u-i0f8ljz68" id="i0f8ljz68_0">
-                                <div class="blocklist__item blocklist__item--u-iam8endv9" id="iam8endv9_0">
-                                    <div class="imageFit imageFit--u-ivzoo6of6" id="ivzoo6of6_0" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
-                                        <img
-                                            data-origin-src="/thumb/2/_AEe7IGty6afwfr9tdq5BQ/r/d/tb_1.png"
-                                            data-size="1154x802"
-                                            src="/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png"
-                                            alt="tb_1"
-                                            title=""
-                                            class="imageFit__img imageFit__img--u-iakr7t3m4"
-                                            id="iakr7t3m4_0"
-                                        />
-                                        <div class="imageFit__overlay imageFit__overlay--u-ii2pghc7v" id="ii2pghc7v_0"></div>
-                                        <div class="imageFit__zoom imageFit__zoom--u-icgewrw1c" id="icgewrw1c_0">
-                                            <span class="svg_image svg_image--u-i7vm7ukf2" id="i7vm7ukf2_0" data-do-svg_image='{"screen":{"stretch":true}}'> </span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        role="button"
-                                        class="link-universal link-universal--u-ifdiwytf0"
-                                        id="ifdiwytf0_0"
-                                        data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false,"sidepanel":false}}'
-                                    >
-                                        <div class="heading heading--u-i33nvmgf0" id="i33nvmgf0_0">
-                                            <span class="text-block-wrap-div">ЧИСТЯЩИЕ СРЕДСТВА</span>
-                                        </div>
-                                    </div>
-                                    <div class="text text--u-irhe4b1iq" id="irhe4b1iq_0">
-                                        <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
-                                    </div>
-                                    <div class="div div--u-ibxodt7qf" id="ibxodt7qf_0">
-                                        <a
-                                            role="button"
-                                            class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_0"
-                                            data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                                            href="{{ route('categories.index') }}"
-                                        >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
-                                                <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
+                            @foreach(\App\Models\Catalogue\Category::all() as $category)
+                                <div class="blocklist__item__outer blocklist__item__outer--u-i0f8ljz68" id="i0f8ljz68_0">
+                                    <div class="blocklist__item blocklist__item--u-iam8endv9" id="iam8endv9_0">
+                                        <div class="imageFit imageFit--u-ivzoo6of6" id="ivzoo6of6_0" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
+                                            <img
+                                                data-origin-src="{{ $category->getImage() }}"
+                                                data-size="1154x802"
+                                                src="{{ $category->getImage() }}"
+                                                alt="tb_1"
+                                                title=""
+                                                class="imageFit__img imageFit__img--u-iakr7t3m4"
+                                                id="iakr7t3m4_0"
+                                            />
+                                            <div class="imageFit__overlay imageFit__overlay--u-ii2pghc7v" id="ii2pghc7v_0"></div>
+                                            <div class="imageFit__zoom imageFit__zoom--u-icgewrw1c" id="icgewrw1c_0">
+                                                <span class="svg_image svg_image--u-i7vm7ukf2" id="i7vm7ukf2_0" data-do-svg_image='{"screen":{"stretch":true}}'> </span>
                                             </div>
-                                        </a>
+                                        </div>
+                                        <div
+                                            role="button"
+                                            class="link-universal link-universal--u-ifdiwytf0"
+                                            id="ifdiwytf0_0"
+                                            data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false,"sidepanel":false}}'
+                                        >
+                                            <div class="heading heading--u-i33nvmgf0" id="i33nvmgf0_0">
+                                                <span class="text-block-wrap-div">{{ $category->title }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="text text--u-irhe4b1iq" id="irhe4b1iq_0">
+                                            <span class="text-block-wrap-div">{{ $category->description  }}</span>
+                                        </div>
+                                        <div class="div div--u-ibxodt7qf" id="ibxodt7qf_0">
+                                            <a
+                                                role="button"
+                                                class="link-universal link-universal--u-icen6h73h text-decoration-none"
+                                                id="icen6h73h_0"
+                                                data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
+                                                href="{{ route('categories.index') }}"
+                                            >
+                                                <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
+                                                    <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blocklist__item__outer blocklist__item__outer--u-i0f8ljz68" id="i0f8ljz68_1">
-                                <div class="blocklist__item blocklist__item--u-iam8endv9" id="iam8endv9_1">
-                                    <div class="imageFit imageFit--u-ivzoo6of6" id="ivzoo6of6_1" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
-                                        <img
-                                            data-origin-src="/thumb/2/FUDg2QQDnp-GutPsM5ZgeQ/r/d/tb_2.png"
-                                            data-size="1154x802"
-                                            src="/thumb/2/aPsVGQccTHGbbeOdy37NPQ/1900r1900/d/tb_2.png"
-                                            alt="tb_2"
-                                            title=""
-                                            class="imageFit__img imageFit__img--u-iakr7t3m4"
-                                            id="iakr7t3m4_1"
-                                        />
-                                        <div class="imageFit__overlay imageFit__overlay--u-ii2pghc7v" id="ii2pghc7v_1"></div>
-                                        <div class="imageFit__zoom imageFit__zoom--u-icgewrw1c" id="icgewrw1c_1">
-                                            <span class="svg_image svg_image--u-i7vm7ukf2" id="i7vm7ukf2_1" data-do-svg_image='{"screen":{"stretch":true}}'> </span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        role="button"
-                                        class="link-universal link-universal--u-ifdiwytf0"
-                                        id="ifdiwytf0_1"
-                                        data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false,"sidepanel":false}}'
-                                    >
-                                        <div class="heading heading--u-i33nvmgf0" id="i33nvmgf0_1">
-                                            <span class="text-block-wrap-div">СРЕДСТВА ГИГИЕНЫ</span>
-                                        </div>
-                                    </div>
-                                    <div class="text text--u-irhe4b1iq" id="irhe4b1iq_1">
-                                        <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
-                                    </div>
-                                    <div class="div div--u-ibxodt7qf" id="ibxodt7qf_1">
-                                        <a
-                                            role="button"
-                                            class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_0"
-                                            data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                                            href="{{ route('categories.index') }}"
-                                        >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
-                                                <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blocklist__item__outer blocklist__item__outer--u-i0f8ljz68" id="i0f8ljz68_2">
-                                <div class="blocklist__item blocklist__item--u-iam8endv9" id="iam8endv9_2">
-                                    <div class="imageFit imageFit--u-ivzoo6of6" id="ivzoo6of6_2" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
-                                        <img
-                                            data-origin-src="/thumb/2/InyryB1RnHC60A39S3m3YA/r/d/tb_3.png"
-                                            data-size="1154x802"
-                                            src="/thumb/2/ibzPhmXAFqg07Gh9jGanvA/1900r1900/d/tb_3.png"
-                                            alt="tb_3"
-                                            title=""
-                                            class="imageFit__img imageFit__img--u-iakr7t3m4"
-                                            id="iakr7t3m4_2"
-                                        />
-                                        <div class="imageFit__overlay imageFit__overlay--u-ii2pghc7v" id="ii2pghc7v_2"></div>
-                                        <div class="imageFit__zoom imageFit__zoom--u-icgewrw1c" id="icgewrw1c_2">
-                                            <span class="svg_image svg_image--u-i7vm7ukf2" id="i7vm7ukf2_2" data-do-svg_image='{"screen":{"stretch":true}}'> </span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        role="button"
-                                        class="link-universal link-universal--u-ifdiwytf0"
-                                        id="ifdiwytf0_2"
-                                        data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false,"sidepanel":false}}'
-                                    >
-                                        <div class="heading heading--u-i33nvmgf0" id="i33nvmgf0_2">
-                                            <span class="text-block-wrap-div">МОЮЩИЕ СРЕДСТВА </span>
-                                        </div>
-                                    </div>
-                                    <div class="text text--u-irhe4b1iq" id="irhe4b1iq_2">
-                                        <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
-                                    </div>
-                                    <div class="div div--u-ibxodt7qf" id="ibxodt7qf_2">
-                                        <a
-                                            role="button"
-                                            class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_0"
-                                            data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                                            href="{{ route('categories.index') }}"
-                                        >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
-                                                <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blocklist__item__outer blocklist__item__outer--u-i0f8ljz68" id="i0f8ljz68_3">
-                                <div class="blocklist__item blocklist__item--u-iam8endv9" id="iam8endv9_3">
-                                    <div class="imageFit imageFit--u-ivzoo6of6" id="ivzoo6of6_3" data-do-image='{"screen":{"objectFit":"cover","lockRatio":true,"maxHeight":1900,"maxWidth":1900}}'>
-                                        <img
-                                            data-origin-src="/thumb/2/9-pAiYeAJPRq3UariYGQyA/r/d/tb_4.png"
-                                            data-size="1154x802"
-                                            src="/thumb/2/yatEBeffnywrVHtkC73zEw/1900r1900/d/tb_4.png"
-                                            alt="tb_4"
-                                            title=""
-                                            class="imageFit__img imageFit__img--u-iakr7t3m4"
-                                            id="iakr7t3m4_3"
-                                        />
-                                        <div class="imageFit__overlay imageFit__overlay--u-ii2pghc7v" id="ii2pghc7v_3"></div>
-                                        <div class="imageFit__zoom imageFit__zoom--u-icgewrw1c" id="icgewrw1c_3">
-                                            <span class="svg_image svg_image--u-i7vm7ukf2" id="i7vm7ukf2_3" data-do-svg_image='{"screen":{"stretch":true}}'> </span>
-                                        </div>
-                                    </div>
-                                    <div
-                                        role="button"
-                                        class="link-universal link-universal--u-ifdiwytf0"
-                                        id="ifdiwytf0_3"
-                                        data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false,"sidepanel":false}}'
-                                    >
-                                        <div class="heading heading--u-i33nvmgf0" id="i33nvmgf0_3">
-                                            <span class="text-block-wrap-div">САЛФЕТКИ</span>
-                                        </div>
-                                    </div>
-                                    <div class="text text--u-irhe4b1iq" id="irhe4b1iq_3">
-                                        <span class="text-block-wrap-div">Ваш примерный текст в несколько строк для наглядности</span>
-                                    </div>
-                                    <div class="div div--u-ibxodt7qf" id="ibxodt7qf_3">
-                                        <a
-                                            role="button"
-                                            class="link-universal link-universal--u-icen6h73h"
-                                            id="icen6h73h_0"
-                                            data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                                            href="{{ route('categories.index') }}"
-                                        >
-                                            <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
-                                                <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                     <div class="blocklist__arrows_wrapper blocklist__arrows_wrapper--u-idymtuz4v" id="idymtuz4v_0">
