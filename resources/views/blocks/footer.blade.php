@@ -38,7 +38,7 @@
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-iz77gsokt" id="iz77gsokt_0">
-                                                    <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
+                                                    <span class="text-block-wrap-div">8-988-245-99-15</span>
                                                 </div>
                                             </a>
                                         </div>
@@ -75,7 +75,7 @@
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-itfpenlsh" id="itfpenlsh_0">
-                                                    <span class="text-block-wrap-div">+1 (012) 945-67-89</span>
+                                                    <span class="text-block-wrap-div">8-918-628-36-41</span>
                                                 </div>
                                             </a>
                                         </div>
@@ -171,7 +171,7 @@
                                         <span class="text-block-wrap-div">Адрес офиса:</span>
                                     </div>
                                     <div class="text text--u-icv32bkjc" id="icv32bkjc_0">
-                                        <span class="text-block-wrap-div">350004, Краснодарский край, г. Краснодар, ул. 1-я линия, д. 21/1</span>
+                                        <span class="text-block-wrap-div">г.Краснодар,  ул. Коммунаров  56, офис 8</span>
                                     </div>
                                 </div>
                             </div>
@@ -193,14 +193,14 @@
                                     <div class="list list--u-i2a90muc0" id="i2a90muc0_0">
                                         <div class="list__item list__item--u-ib2jrfhwp" id="ib2jrfhwp_0">
                                             <a
-                                                href="tel:+7 (861) 262-60-93"
+                                                href="tel:8-918-628-36-41"
                                                 target="_blank"
                                                 class="link-universal link-universal--u-i9fjhjg7z"
                                                 id="i9fjhjg7z_0"
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-idhokstg3" id="idhokstg3_0">
-                                                    <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
+                                                    <span class="text-block-wrap-div">8-918-628-36-41</span>
                                                 </div>
                                             </a>
                                         </div>

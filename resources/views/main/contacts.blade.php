@@ -48,7 +48,7 @@
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                 >
                                     <div class="text text--u-idopc082e" id="idopc082e_0">
-                                        <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
+                                        <span class="text-block-wrap-div">8-988-245-99-15</span>
                                     </div>
                                 </a>
                             </div>
@@ -116,13 +116,13 @@
                                                         Бесплатно по России
                                                     </div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">+7 (861) 262-60-93</a>
+                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">8-988-245-99-15</a>
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item _tel-item _last-item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="phones.1.tel_title">Отдел продаж</div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">+7 (861) 262-60-93</a>
+                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">8-988-245-99-15</a>
 {{--                                                        <a--}}
 {{--                                                            href="https://www.whatsapp.com"--}}
 {{--                                                            target="_blank"--}}
@@ -152,7 +152,7 @@
                                                 <div class="lpc-contact-2__item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="address_title">Адрес:</div>
                                                     <div class="lpc-contact-2__item-text lp-header-text-3" data-lp-selector=".lpc-contact-2__item-text" data-elem-type="text" data-path="address">
-                                                        350004, Краснодарский край, г. Краснодар, ул. 1-я линия, д. 21/1
+                                                        г.Краснодар,  ул. Коммунаров  56, офис 8
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item">

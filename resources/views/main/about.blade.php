@@ -47,7 +47,7 @@
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                 >
                                     <div class="text text--u-idopc082e" id="idopc082e_0">
-                                        <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
+                                        <span class="text-block-wrap-div">8-988-245-99-15</span>
                                     </div>
                                 </a>
                             </div>

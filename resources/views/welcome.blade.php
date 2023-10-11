@@ -47,7 +47,7 @@
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                 >
                                     <div class="text text--u-idopc082e" id="idopc082e_0">
-                                        <span class="text-block-wrap-div">+7 (861) 262-60-93</span>
+                                        <span class="text-block-wrap-div">8-988-245-99-15</span>
                                     </div>
                                 </a>
                             </div>
@@ -254,7 +254,7 @@
                                                 class="link-universal link-universal--u-icen6h73h text-decoration-none"
                                                 id="icen6h73h_0"
                                                 data-do-link_universal='{"screen":{"type":"button","popup":"i6p5a9j56_0","sidepanel":false,"eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
-                                                href="{{ route('categories.index') }}"
+                                                href="{{ route('categories.show', $category->slug) }}"
                                             >
                                                 <div class="text text--u-iti6mdxge" id="iti6mdxge_0">
                                                     <span class="text-block-wrap-div">ЗАКАЗАТЬ</span>
@@ -423,7 +423,7 @@
 												</svg>
 											</span>
                                         <div class="text text--u-isl2vtind" id="isl2vtind_1">
-                                            <span class="text-block-wrap-div">80.00 до 17.00</span>
+                                            <span class="text-block-wrap-div">08:00 до 17:00</span>
                                         </div>
                                         <div class="text text--u-i0uy53nlr" id="i0uy53nlr_1">
                                             <span class="text-block-wrap-div">Работаем без выходных и праздников</span>
