@@ -7,6 +7,10 @@ use App\Models\Catalogue\Category;
 use App\Models\Catalogue\Product;
 use Illuminate\Http\Request;
 
+use App\Models\Contact;
+use App\Models\Manager;
+
+
 class CategoryController extends Controller
 {
     /**
@@ -17,6 +21,8 @@ class CategoryController extends Controller
         return view('catalogue.categories.index', [
             'categories' => Category::all(),
             'products' => Product::all(),
+            'contacts' => Contact::all(),
+            'managers' => Manager::all(),
         ]);
     }
 
@@ -45,6 +51,8 @@ class CategoryController extends Controller
             'categories' => Category::query()->get(),
             'products' => Product::all(),
             'category' => $category,
+            'contacts' => Contact::all(),
+            'managers' => Manager::all(),
         ]);
     }
 

@@ -48,7 +48,7 @@
                                     data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                 >
                                     <div class="text text--u-idopc082e" id="idopc082e_0">
-                                        <span class="text-block-wrap-div">8-988-245-99-15</span>
+                                        <span class="text-block-wrap-div">{{$contacts[0]->hotline}}</span>
                                     </div>
                                 </a>
                             </div>
@@ -116,13 +116,13 @@
                                                         Бесплатно по России
                                                     </div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">8-988-245-99-15</a>
+                                                        <a href="tel:{{$contacts[0]->hotline}}" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.0.tel">{{$contacts[0]->hotline}}</a>
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item _tel-item _last-item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="phones.1.tel_title">Отдел продаж</div>
                                                     <div class="lpc-contact-2__item-phones-text lp-header-title-5">
-                                                        <a href="tel:+71231234567" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">8-988-245-99-15</a>
+                                                        <a href="tel:{{$contacts[0]->sales}}" data-elem-type="text" class="lpc-contact-2__item-tel" data-lp-selector=".lpc-contact-2__item-tel" data-path="phones.1.tel">{{$contacts[0]->sales}}</a>
 {{--                                                        <a--}}
 {{--                                                            href="https://www.whatsapp.com"--}}
 {{--                                                            target="_blank"--}}
@@ -147,12 +147,12 @@
                                                 </div>
                                                 <div class="lpc-contact-2__item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="work_title">Режим работы:</div>
-                                                    <div class="lpc-contact-2__item-text lp-header-text-3" data-lp-selector=".lpc-contact-2__item-text" data-elem-type="text" data-path="work">С 11 до 21 без выходных</div>
+                                                    <div class="lpc-contact-2__item-text lp-header-text-3" data-lp-selector=".lpc-contact-2__item-text" data-elem-type="text" data-path="work">{{$contacts[0]->schedule}}</div>
                                                 </div>
                                                 <div class="lpc-contact-2__item">
                                                     <div class="lpc-contact-2__item-title lp-header-title-6" data-lp-selector=".lpc-contact-2__item-title" data-elem-type="text" data-path="address_title">Адрес:</div>
                                                     <div class="lpc-contact-2__item-text lp-header-text-3" data-lp-selector=".lpc-contact-2__item-text" data-elem-type="text" data-path="address">
-                                                        г.Краснодар,  ул. Коммунаров  56, офис 8
+                                                        {{$contacts[0]->address}}
                                                     </div>
                                                 </div>
                                                 <div class="lpc-contact-2__item">
@@ -162,9 +162,9 @@
                                                         data-lp-selector=".lpc-contact-2__item-text"
                                                         data-elem-type="text"
                                                         data-path="mail_list.0.mail"
-                                                        href="mailto:karpov1962@mail.ru"
+                                                        href="mailto:{{$contacts[0]->email}}"
                                                     >
-                                                        karpov1962@mail.ru
+                                                        {{$contacts[0]->email}}
                                                     </a>
                                                 </div>
                                             </div>

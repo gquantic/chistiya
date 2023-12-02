@@ -14,14 +14,16 @@ class ProductController extends AdminController
      * Title for current resource.
      *
      * @var string
-     */
+     * */
+
     protected $title = 'Товары';
 
     /**
      * Make a grid builder.
      *
      * @return Grid
-     */
+     **/
+
     protected function grid()
     {
         $grid = new Grid(new Product());
@@ -51,8 +53,8 @@ class ProductController extends AdminController
      * Make a show builder.
      *
      * @param mixed $id
-     * @return Show
-     */
+     * @return Show*/
+
     protected function detail($id)
     {
         $show = new Show(Product::with('category')->findOrFail($id));
@@ -81,8 +83,8 @@ class ProductController extends AdminController
     /**
      * Make a form builder.
      *
-     * @return Form
-     */
+     * @return Form*/
+
     protected function form()
     {
         $form = new Form(new Product());
@@ -105,3 +107,4 @@ class ProductController extends AdminController
         return $form;
     }
 }
+
