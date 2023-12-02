@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
-use Orchid\Filters\Types\Like;
-use Orchid\Filters\Types\Where;
-use Orchid\Filters\Types\WhereDateStartEnd;
-use Orchid\Platform\Models\User as Authenticatable;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
@@ -48,11 +48,11 @@ class User extends Authenticatable
      * @var array
      */
     protected $allowedFilters = [
-           'id'         => Where::class,
-           'name'       => Like::class,
-           'email'      => Like::class,
-           'updated_at' => WhereDateStartEnd::class,
-           'created_at' => WhereDateStartEnd::class,
+        'id'         => Where::class,
+        'name'       => Like::class,
+        'email'      => Like::class,
+        'updated_at' => WhereDateStartEnd::class,
+        'created_at' => WhereDateStartEnd::class,
     ];
 
     /**

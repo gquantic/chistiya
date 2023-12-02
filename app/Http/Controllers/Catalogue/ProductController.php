@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Catalogue;
 use App\Http\Controllers\Controller;
 use App\Models\Catalogue\Product;
 use Illuminate\Http\Request;
+use App\Models\Contact;
+use App\Models\Manager;
+
 
 class ProductController extends Controller
 {
@@ -37,7 +40,9 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        return view('catalogue.products.show', compact('product'));
+        $contacts=Contact::all();
+        $managers=Manager::all();
+        return view('catalogue.products.show', compact('product', 'contacts', 'managers'));
     }
 
     /**

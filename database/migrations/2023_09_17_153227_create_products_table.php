@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('slug')->unique();
             $table->foreignId('category_id');
-            $table->string('image')->nullable();
+            $table->string('image')->default('thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png');
             $table->string('title');
             $table->float('price_1')->comment('Розница');
             $table->float('price_2')->comment('до 30к');

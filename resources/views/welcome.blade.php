@@ -74,11 +74,11 @@
 								</svg>
 							</span>
                     <div class="heading heading--u-ifzwdgpqa" id="ifzwdgpqa_0">
-                        <span class="text-block-wrap-div">МОЮЩИЕ СРЕДСТВА</span>
+                        <span class="text-block-wrap-div">{{$header[0]->title}}</span>
                     </div>
                 </div>
                 <div class="text text--u-ilqycn52p" id="ilqycn52p_0">
-                    <span class="text-block-wrap-div">ПО ОПТОВОЙ ЦЕНЕ!</span>
+                    <span class="text-block-wrap-div">{{$header[0]->subtitle}}</span>
                 </div>
             </div>
         </div>
@@ -131,10 +131,10 @@
 												</svg>
 											</span>
                                         <div class="text text--u-i5wwexnw9" id="i5wwexnw9_0">
-                                            <span class="text-block-wrap-div">Соблюдение ГОСТ</span>
+                                            <span class="text-block-wrap-div">{{$banners[0]->title}}</span>
                                         </div>
                                         <div class="text text--u-ijacvrffx" id="ijacvrffx_0">
-                                            <span class="text-block-wrap-div">все товары сертифицированы</span>
+                                            <span class="text-block-wrap-div">{{$banners[0]->subtitle}}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -151,10 +151,10 @@
 												</svg>
 											</span>
                                         <div class="text text--u-i5wwexnw9" id="i5wwexnw9_1">
-                                            <span class="text-block-wrap-div">Низкие цены</span>
+                                            <span class="text-block-wrap-div">{{$banners[1]->title}}</span>
                                         </div>
                                         <div class="text text--u-ijacvrffx" id="ijacvrffx_1">
-                                            <span class="text-block-wrap-div">самые низкие цены на рынке</span>
+                                            <span class="text-block-wrap-div">{{$banners[1]->subtitle}}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -171,10 +171,10 @@
 												</svg>
 											</span>
                                         <div class="text text--u-i5wwexnw9" id="i5wwexnw9_2">
-                                            <span class="text-block-wrap-div">24/7</span>
+                                            <span class="text-block-wrap-div">{{$banners[2]->title}}</span>
                                         </div>
                                         <div class="text text--u-ijacvrffx" id="ijacvrffx_2">
-                                            <span class="text-block-wrap-div">СЛУЖБА ПОДДЕРЖКИ</span>
+                                            <span class="text-block-wrap-div">{{$banners[2]->subtitle}}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -403,10 +403,10 @@
 												</svg>
 											</span>
                                         <div class="text text--u-isl2vtind" id="isl2vtind_0">
-                                            <span class="text-block-wrap-div">Скидки!</span>
+                                            <span class="text-block-wrap-div">{{$banners[3]->title}}</span>
                                         </div>
                                         <div class="text text--u-i0uy53nlr" id="i0uy53nlr_0">
-                                            <span class="text-block-wrap-div">Гибкая система скидок для постоянных клиентов</span>
+                                            <span class="text-block-wrap-div">{{$banners[3]->subtitle}}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -423,10 +423,10 @@
 												</svg>
 											</span>
                                         <div class="text text--u-isl2vtind" id="isl2vtind_1">
-                                            <span class="text-block-wrap-div">08:00 до 17:00</span>
+                                            <span class="text-block-wrap-div">{{$banners[4]->title}}</span>
                                         </div>
                                         <div class="text text--u-i0uy53nlr" id="i0uy53nlr_1">
-                                            <span class="text-block-wrap-div">Работаем без выходных и праздников</span>
+                                            <span class="text-block-wrap-div">{{$banners[4]->subtitle}}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -511,10 +511,10 @@
                                         </div>
                                     </div>
                                     <div class="text text--u-icdrr5lnw" id="icdrr5lnw_0">
-                                        <span class="text-block-wrap-div">Вы оставляете заявку</span>
+                                        <span class="text-block-wrap-div">{{$banners[5]->title}}</span>
                                     </div>
                                     <div class="text text--u-imncfuhqv" id="imncfuhqv_0">
-                                        <span class="text-block-wrap-div">Отправьте нам заявку прямо сейчас</span>
+                                        <span class="text-block-wrap-div">{{$banners[5]->subtitle}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -536,10 +536,10 @@
                                         </div>
                                     </div>
                                     <div class="text text--u-icdrr5lnw" id="icdrr5lnw_1">
-                                        <span class="text-block-wrap-div">Мы связываемся с Вами</span>
+                                        <span class="text-block-wrap-div">{{$banners[6]->title}}</span>
                                     </div>
                                     <div class="text text--u-imncfuhqv" id="imncfuhqv_1">
-                                        <span class="text-block-wrap-div">И обговариваем все детали</span>
+                                        <span class="text-block-wrap-div">{{$banners[6]->subtitle}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -566,10 +566,10 @@
                                         </div>
                                     </div>
                                     <div class="text text--u-icdrr5lnw" id="icdrr5lnw_2">
-                                        <span class="text-block-wrap-div">Доставка</span>
+                                        <span class="text-block-wrap-div">{{$banners[7]->title}}</span>
                                     </div>
                                     <div class="text text--u-imncfuhqv" id="imncfuhqv_2">
-                                        <span class="text-block-wrap-div">Отправляем Вам товар</span>
+                                        <span class="text-block-wrap-div">{{$banners[7]->subtitle}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -591,10 +591,10 @@
                                         </div>
                                     </div>
                                     <div class="text text--u-icdrr5lnw" id="icdrr5lnw_3">
-                                        <span class="text-block-wrap-div">Вы оплачиваете товар</span>
+                                        <span class="text-block-wrap-div">{{$banners[8]->title}}</span>
                                     </div>
                                     <div class="text text--u-imncfuhqv" id="imncfuhqv_3">
-                                        <span class="text-block-wrap-div">У нас самые низкие цены</span>
+                                        <span class="text-block-wrap-div">{{$banners[8]->subtitle}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -616,10 +616,10 @@
                                         </div>
                                     </div>
                                     <div class="text text--u-icdrr5lnw" id="icdrr5lnw_4">
-                                        <span class="text-block-wrap-div">Высокое качество</span>
+                                        <span class="text-block-wrap-div">{{$banners[9]->title}}</span>
                                     </div>
                                     <div class="text text--u-imncfuhqv" id="imncfuhqv_4">
-                                        <span class="text-block-wrap-div">Вас приятно удивит высокое качество продукции</span>
+                                        <span class="text-block-wrap-div">{{$banners[9]->subtitle}}</span>
                                     </div>
                                 </div>
                             </div>
