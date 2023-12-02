@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 //===ADMIN===
 
-Route::group(['namespace' => 'Admin', 'prefix' => 'admin/', 'middleware' => 'admin'], function()
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin/', 'middleware' => 'adminpannel'], function()
 {
     Route::get('/', 'Reviews\IndexController');
 
@@ -111,9 +111,25 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin/', 'middleware' => 'adm
         Route::post('', 'StoreController')->name('admin.delivery.store');
         Route::delete('/{delivery}', 'DestroyController')->name('admin.delivery.destroy');
     });
+
+    Route::group(['namespace' => 'Applications', 'prefix' => 'applications'], function()
+    {
+        Route::get('/', 'IndexController')->name('admin.applications.index');
+        Route::get('/{delivery}', 'ShowController')->name('admin.applications.show');
+        Route::delete('/{delivery}', 'DestroyController')->name('admin.applications.destroy');
+    });
+
+    Route::group(['namespace' => 'Users', 'prefix' => 'users'], function()
+    {
+        Route::get('/', 'IndexController')->name('admin.users.index');
+        Route::get('/{user}', 'ShowController')->name('admin.users.show');
+        Route::get('/{user}/edit', 'EditController')->name('admin.users.edit');
+        Route::patch('/{user}', 'UpdateController')->name('admin.users.update');
+        Route::delete('/{user}', 'DestroyController')->name('admin.users.destroy');
+    });
 });
 
-Route::group(['middleware' => 'admin'], function()
+Route::group(['middleware' => 'adminpannel'], function()
 {
     Route::get('/admin/banner/create', 'App\Http\Controllers\Admin\Banners\CreateController')->name('admin.banners.create');
     Route::get('/admin/manager/create', 'App\Http\Controllers\Admin\Managers\CreateController')->name('admin.managers.create');
