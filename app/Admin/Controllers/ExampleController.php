@@ -52,8 +52,8 @@ class ExampleController extends AdminController
     /**
      * Make a form builder.
      *
-     * @return Form
-     */
+     * @return Form*/
+
     protected function form()
     {
         $form = new Form(new ExampleModel);
@@ -65,3 +65,4 @@ class ExampleController extends AdminController
         return $form;
     }
 }
+

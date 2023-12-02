@@ -38,13 +38,13 @@
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-iz77gsokt" id="iz77gsokt_0">
-                                                    <span class="text-block-wrap-div">8-988-245-99-15</span>
+                                                    <span class="text-block-wrap-div">{{$managers[0]->phone}}</span>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="text text--u-iyjaaiqsc" id="iyjaaiqsc_0">
-                                        <span class="text-block-wrap-div">Менеджер Татьяна</span>
+                                        <span class="text-block-wrap-div">Менеджер {{$managers[0]->name}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -75,13 +75,13 @@
                                                 data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"link","blank":false}}'
                                             >
                                                 <div class="text text--u-itfpenlsh" id="itfpenlsh_0">
-                                                    <span class="text-block-wrap-div">8-918-628-36-41</span>
+                                                    <span class="text-block-wrap-div">{{$managers[1]->phone}}</span>
                                                 </div>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="text text--u-iepy7h976" id="iepy7h976_0">
-                                        <span class="text-block-wrap-div">Менеджер Алексей</span>
+                                        <span class="text-block-wrap-div">Менеджер {{$managers[1]->name}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -122,13 +122,13 @@
                                     </div>
                                     <a
                                         target="_self"
-                                        href="mailto:test@example.com"
+                                        href="mailto:{{$contacts[0]->email}}"
                                         class="link-universal link-universal--u-isx64sdvi"
                                         id="isx64sdvi_0"
                                         data-do-link_universal='{"screen":{"type":"link","popup":"none","eventName":"none","eventElement":"self","eventAction":"","selectedTag":"","linkType":"email","blank":false}}'
                                     >
                                         <div class="text text--u-iffeeaocw" id="iffeeaocw_0">
-                                            <span class="text-block-wrap-div">karpov1962@mail.ru</span>
+                                            <span class="text-block-wrap-div">{{$contacts[0]->email}}</span>
                                         </div>
                                     </a>
                                 </div>
@@ -149,7 +149,7 @@
                                         <span class="text-block-wrap-div">Время работы:</span>
                                     </div>
                                     <div class="text text--u-i6l6sflwf" id="i6l6sflwf_0">
-                                        <span class="text-block-wrap-div">Работаем по будням с 09:00 до 18:00.</span>
+                                        <span class="text-block-wrap-div">{{$contacts[0]->schedule}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@
                                         <span class="text-block-wrap-div">Адрес офиса:</span>
                                     </div>
                                     <div class="text text--u-icv32bkjc" id="icv32bkjc_0">
-                                        <span class="text-block-wrap-div">г.Краснодар,  ул. Коммунаров  56, офис 8</span>
+                                        <span class="text-block-wrap-div">{{$contacts[0]->address}}</span>
                                     </div>
                                 </div>
                             </div>

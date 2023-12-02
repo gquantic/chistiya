@@ -14,14 +14,14 @@ class CategoryController extends AdminController
      * Title for current resource.
      *
      * @var string
-     */
+*/
     protected $title = 'Category';
 
     /**
      * Make a grid builder.
      *
      * @return Grid
-     */
+*/
     protected function grid()
     {
         $grid = new Grid(new Category());
@@ -42,7 +42,7 @@ class CategoryController extends AdminController
      *
      * @param mixed $id
      * @return Show
-     */
+*/
     protected function detail($id)
     {
         $show = new Show(Category::findOrFail($id));
@@ -62,7 +62,7 @@ class CategoryController extends AdminController
      * Make a form builder.
      *
      * @return Form
-     */
+*/
     protected function form()
     {
         $form = new Form(new Category());
