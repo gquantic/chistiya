@@ -42,7 +42,12 @@ export default {
     },
     methods: {
         send() {
-            console.log(this.name)
+            axios.post('/api/order', {
+                name: this.name,
+                phone: this.phone,
+                product: this.product.id,
+            });
+
             this.sent = true;
         }
     },
