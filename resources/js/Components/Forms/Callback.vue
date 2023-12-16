@@ -76,8 +76,16 @@ export default {
     },
     methods: {
         send() {
-            this.sent = true;
-            console.log(this.phone);
+            if (this.phone === '') {
+                alert('Пожалуйста, укажите Ваш номер телефона.');
+                return;
+            }
+
+            axios.post('/api/callback', {
+                phone: this.phone
+            }).then(response => {
+                this.sent = true;
+            });
         },
     },
 }

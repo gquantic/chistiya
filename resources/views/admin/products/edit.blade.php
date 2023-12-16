@@ -50,7 +50,6 @@
                     </select>
                 </div>
             </div>
-    </div>
 
     <div class="card card-primary">
                 <div class="card-header">
@@ -149,7 +148,7 @@
             <!-- /.card-body -->
 
             <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Добавить</button>
+                <button type="submit" class="btn btn-primary">Сохранить</button>
             </div>
         </form>
     </div>

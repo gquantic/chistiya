@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Repositories\Content\NewsRepository;
 use Illuminate\Http\Request;
 
 use App\Models\Contact;
@@ -17,7 +18,8 @@ class ReviewsController extends Controller
     {
         $contacts=Contact::all();
         $managers=Manager::all();
-        $reviews=Review::all();
+        $reviews = Review::all();
+
         return view('reviews.index', compact('contacts', 'managers', 'reviews'));
     }
 }

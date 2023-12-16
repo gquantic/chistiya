@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use function PHPUnit\Framework\fileExists;
 
 class Product extends Model
 {
@@ -26,8 +27,14 @@ class Product extends Model
 
     public function getImage()
     {
-        return $this->image == '' ? '/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png' :
-                "/storage/{$this->image}";
+        if ($this->image == '')
+            return '/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png';
+
+        if (file_exists("/storage/{$this->image}")) {
+            return  "/storage/{$this->image}";
+        } else {
+            return '/img/product/' . $this->image;
+        }
     }
 
     public function slug(): Attribute

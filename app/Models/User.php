@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Encore\Admin\Auth\Database\Role;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -67,4 +68,14 @@ class User extends Authenticatable
         'updated_at',
         'created_at',
     ];
+
+    public function checkIsAdmin(): bool
+    {
+        return $this->roles()->where('slug', 'admin')->count() > 0;
+    }
+
+    public function roles(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
+    {
+        return $this->belongsToMany(\App\Models\Role::class, 'role_users');
+    }
 }

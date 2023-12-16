@@ -42,13 +42,18 @@ export default {
     },
     methods: {
         send() {
+            if (this.phone === '') {
+                alert('Пожалуйста, укажите Ваш номер телефона.');
+                return;
+            }
+
             axios.post('/api/order', {
                 name: this.name,
                 phone: this.phone,
-                product: this.product.id,
+                product_id: this.product.id,
+            }).then(response => {
+                this.sent = true;
             });
-
-            this.sent = true;
         }
     },
     watch: {
