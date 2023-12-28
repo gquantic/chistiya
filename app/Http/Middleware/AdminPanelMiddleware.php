@@ -16,7 +16,13 @@ class AdminPanelMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
+        /*
         if (!Auth::user()->checkIsAdmin()) {
+            return redirect()->route('welcome');
+        }
+        */
+        if(auth()->user()==null OR auth()->user()->role!='admin')
+        {
             return redirect()->route('welcome');
         }
 

@@ -71,7 +71,7 @@
                     <i class="fas fa-user-circle" style="font-size: 34px; color: #17a2b8"></i>
                 </div>
                 <div class="info">
-                    <a href="#" class="d-block">сюда имя</a>
+                    <a href="#" class="d-block">{{auth()->user()->name}}</a>
                 </div>
             </div>
 
