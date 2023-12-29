@@ -27,13 +27,14 @@ class Product extends Model
 
     public function getImage()
     {
-        if ($this->image == '')
-            return '/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png';
-
-        if (file_exists("/storage/{$this->image}")) {
-            return  "/storage/{$this->image}";
+        if ($this->image == '' or $this->image == null)
+            return asset('/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png');
+            //return '/thumb/2/5j3-0qrgrLOpaedx70-u9g/1900r1900/d/tb_1.png';
+        if (file_exists("/storage/{$this->image}"))
+        {
+            return  asset("/storage/{$this->image}");
         } else {
-            return '/img/product/' . $this->image;
+            return asset('/img/product/' . $this->image);
         }
     }
 
