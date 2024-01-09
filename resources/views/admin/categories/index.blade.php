@@ -43,7 +43,7 @@
                         <td>{{$category->title}}</td>
                         <td>{{$category->slug}}</td>
                         <td>{{$category->image}}</td>
-                        <td>{{$category->descripton}}</td>
+                        <td>{{$category->description}}</td>
                         <td>
                             <form method="post" action="{{route('admin.categories.destroy',$category->id)}}">
                                 @csrf
