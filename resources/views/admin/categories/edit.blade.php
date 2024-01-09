@@ -27,13 +27,13 @@
         <!-- /.card-header -->
         <!-- form start -->
         <form action="{{route('admin.categories.update', $category->id)}}" method="post" enctype="multipart/form-data">
+
             @csrf
             @method('patch')
             <div class="card-body">
-
                 <div class="form-group">
                     <label for="exampleInputEmail1">Название</label>
-                    <input type="text" class="form-control" placeholder="Название" name="title" required value="{{$category->title}}">
+                    <input type="text" class="form-control" placeholder="Название" name="title" required  value="{{$category->title}}">
                 </div>
 
                 <div class="form-group">
@@ -51,9 +51,11 @@
                     <input type="file" class="form-control" name="photo">
                 </div>
             </div>
-        </form>
-    </div>
+
     <div class="card-footer">
         <button type="submit" class="btn btn-primary">Добавить</button>
     </div>
+        </form>
+    </div>
+
 @endsection
