@@ -12,8 +12,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/admin.css')}}">
-
+    @vite(['resources/css/admin.css'])
     <!-- Scripts -->
 </head>
 <body>
@@ -23,7 +22,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                {{--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -67,12 +66,12 @@
                                 </div>
                             </li>
                         @endguest
-                    </ul>
+                    </ul>--}}
                 </div>
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4 d-flex bg-light" style="height: calc(100vh - 52px)">
             @yield('content')
         </main>
     </div>
