@@ -48,7 +48,7 @@
                     <tr>
                         <td>{{$product->id}}</td>
                         <td>{{$categories[($product->category_id)-1]->title}}</td>
-                        <td>{{$product->title}}</td>
+                        <td>{{$product->title}} {{$product->volume}} {{$product->volume_text}}</td>
                         <td>{{$product->slug}}</td>
                         <td>{{$product->price_1}}</td>
                         <td>{{$product->price_2}}</td>
