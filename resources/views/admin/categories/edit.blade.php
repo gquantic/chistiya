@@ -43,7 +43,12 @@
 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Описание</label>
-                    <input type="text" class="form-control" placeholder="Описание" name="description" required value="{{$category->description}}">
+                    <input type="text" class="form-control" placeholder="Описание" name="description"  value="{{$category->description}}">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Сортировка (Чем больше, тем выше стоит категория)</label>
+                    <input type="number" class="form-control" placeholder="0" name="sort"  value="{{$category->sort}}">
                 </div>
 
                 <div class="form-group">

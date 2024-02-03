@@ -25,6 +25,7 @@
                 <thead>
                 <tr>
                     <th>Id</th>
+                    <th>Сортировка</th>
                     <th>Название</th>
                     <th>Ссылка</th>
                     <th>Изображение</th>
@@ -40,6 +41,7 @@
 
                     <tr>
                         <td>{{$category->id}}</td>
+                        <td>{{$category->sort}}</td>
                         <td>{{$category->title}}</td>
                         <td>{{$category->slug}}</td>
                         <td>{{$category->image}}</td>

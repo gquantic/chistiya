@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Catalogue;
 use App\Http\Controllers\Controller;
 use App\Models\Catalogue\Category;
 use App\Models\Catalogue\Product;
+use App\Repositories\Catalogue\CategoryRepository;
 use Illuminate\Http\Request;
 
 use App\Models\Contact;
@@ -19,7 +20,7 @@ class CategoryController extends Controller
     public function index()
     {
         return view('catalogue.categories.index', [
-            'categories' => Category::all(),
+            'categories' => $this->categoryRepository->all(),
             'products' => Product::all(),
             'contacts' => Contact::all(),
             'managers' => Manager::all(),
@@ -48,7 +49,7 @@ class CategoryController extends Controller
     public function show(Category $category)
     {
         return view('catalogue.categories.show', [
-            'categories' => Category::query()->get(),
+            'categories' => $this->categoryRepository->all(),
             'products' => Product::all(),
             'category' => $category,
             'contacts' => Contact::all(),

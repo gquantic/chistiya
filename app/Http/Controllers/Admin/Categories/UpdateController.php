@@ -12,25 +12,23 @@ class UpdateController extends Controller
 {
     public function __invoke(Category $category)
     {
-        if (request()->hasFile('image'))
-        {
-            $sql_data=
-                [
-                    'slug'=>request()->slug,
-                    'image'=>request()->file('image')->getClientOriginalName(),
-                    'title'=>request()->title,
-                    'description'=>request()->description,
+        if (request()->hasFile('image')) {
+            $sql_data= [
+                    'slug' => request()->slug,
+                    'image' => request()->file('image')->getClientOriginalName(),
+                    'title' => request()->title,
+                    'description' => request()->description,
+                    'sort' => request()->sort,
                 ];
+
             $file = request()->file('image');
             $file->move(public_path() . '/img/product/',request()->file('image')->getClientOriginalName());
-        }
-        else
-        {
-            $sql_data=
-                [
-                    'slug'=>request()->slug,
-                    'title'=>request()->title,
-                    'description'=>request()->description,
+        } else {
+            $sql_data = [
+                    'slug' => request()->slug,
+                    'title' => request()->title,
+                    'description' => request()->description,
+                    'sort' => request()->sort,
                 ];
         }
 

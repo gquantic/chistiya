@@ -74,11 +74,11 @@
 								</svg>
 							</span>
                     <div class="heading heading--u-ifzwdgpqa" id="ifzwdgpqa_0">
-                        <span class="text-block-wrap-div">{{$header[0]->title}}</span>
+                        <span class="text-block-wrap-div">{{$header[0]->title ?? 'ЧистыйЯ'}}</span>
                     </div>
                 </div>
                 <div class="text text--u-ilqycn52p" id="ilqycn52p_0">
-                    <span class="text-block-wrap-div">{{$header[0]->subtitle}}</span>
+                    <span class="text-block-wrap-div">{{$header[0]->subtitle ?? 'Хозяйственные товары, бытовая химия'}}</span>
                 </div>
             </div>
         </div>
