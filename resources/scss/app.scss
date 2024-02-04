@@ -89,3 +89,34 @@ table.prices {
 .imageFit__img--u-ig03fb2ff {
     width: 80px !important;
 }
+
+.variants {
+    margin-top: 15px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .variant {
+        padding: 10px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        background: rgba(0,0,0,.05);
+        border-radius: 4px;
+        transition: .2s;
+
+        &:hover {
+            background: rgba(0,0,0,.1);
+        }
+
+        &:active {
+            background: rgba(0,0,0,.15);
+        }
+    }
+}
+
+.product-volume {
+    font-size: 20px;
+    font-weight: 500;
+    color: #edba06;
+}

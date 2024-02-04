@@ -40,9 +40,19 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        $contacts=Contact::all();
-        $managers=Manager::all();
-        return view('catalogue.products.show', compact('product', 'contacts', 'managers'));
+        $contacts = Contact::all();
+        $managers = Manager::all();
+
+        // Добавляем другие объемы
+        $variants = Product::query()
+            ->where('title', $product->title)
+//            ->where(function ($query) use ($product) {
+//                $query->where('volume_text', '!=', $product->volume_text)
+//                    ->where('volume', '!=', $product->volume);
+//            })
+            ->get();
+
+        return view('catalogue.products.show', compact('product', 'contacts', 'managers', 'variants'));
     }
 
     /**

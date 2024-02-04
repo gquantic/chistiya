@@ -20,7 +20,7 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <h1 class="fs-3 mt-4 mb-3">{{ $product->title }}</h1>
-                                <p>Объем: {{ $product->volume }} {{ $product->volume_text }}</p>
+                                <p class="product-volume">Объем: {{ $product->volume }} {{ $product->volume_text }}</p>
                             </div>
                             <div class="col-xs-12">
                                 <table class="table table-bordered prices">
@@ -39,6 +39,14 @@
                                         <td>{{ $product->price_4 }} руб.</td>
                                     </tr>
                                 </table>
+                            </div>
+                            <div class="col-xs-12">
+                                <h5>Объемы</h5>
+                                <div class="variants">
+                                    @foreach($variants as $variant)
+                                        <a href="{{ route('products.show', $variant->slug) }}" class="variant">{{ $variant->volume }} {{ $variant->volume_text }}</a>
+                                    @endforeach
+                                </div>
                             </div>
                         </div>
                     </div>
